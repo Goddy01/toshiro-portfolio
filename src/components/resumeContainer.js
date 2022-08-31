@@ -3,7 +3,7 @@ import { FaDownload, FaLinkedin } from "react-icons/fa";
 
 const DesktopResumeContainer = () => {
   return (
-    <section className="bg-box-bg text-dark-grey p-[5%] text-[0.8rem]">
+    <section className="bg-box-bg p-[5%] text-[0.8rem] text-dark-grey">
       <div className="flex items-baseline justify-between text-white">
         <h2 className="text-[2.1rem] font-semibold">Adigun Godwin</h2>
 
@@ -28,38 +28,38 @@ const DesktopResumeContainer = () => {
           </a>
         </span>
       </div>
-      <p className="text-cfcfcf my-[6px]">Backend developer</p>
-      <p className="text-dark-grey mb-4 md:mt-6">
+      <p className="my-[6px] text-cfcfcf">Backend developer</p>
+      <p className="mb-4 text-dark-grey md:mt-6">
         I’m a backend software developer, passionate about solving problems with
         code and transforming ideas from pixels to scalable products. I create
         usable applications with user experience as a top priority using various
         web tools, languages and technology.
       </p>
-      <h3 className="text-e2e2e2 my-4 flex items-center font-semibold">
-        <p className="mr-2.5 capitalize">Core technologies</p>
+      <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
+        <p className="mr-2.5 font-[Andika] capitalize">Core technologies</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
       <p>
         HTML/CSS/SASS, Javascript [ES6+], React JS, Gatsby JS, Next JS, Vue JS,
         CSS-in-JS, Typescript, GraphQL, Redux, Firebase.
       </p>
-      <h3 className="text-e2e2e2 my-4 flex items-center font-semibold">
-        <p className="mr-2.5 capitalize">Familiar with</p>
+      <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
+        <p className="mr-2.5 font-[Andika] capitalize">Familiar with</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
       <p className="text-[0.8rem]">
         Node JS, Express, Nuxt JS, Unit Testing, Web Sockets, PWAs, Wordpress,
         SEO.
       </p>
-      <h3 className="text-e2e2e2 my-4 flex items-center font-semibold">
-        <p className="mr-2.5 capitalize">On the job</p>
+      <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
+        <p className="mr-2.5 font-[Andika] capitalize">On the job</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
       <p className="text-[0.8rem]">
         Agile/Scrum, Version Control, Best Practices, CI/CD
       </p>
-      <h3 className="text-e2e2e2 my-4 flex items-center font-semibold">
-        <p className="mr-2.5 capitalize">Work Experience</p>
+      <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
+        <p className="mr-2.5 font-[Andika] capitalize">Work Experience</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
       <p className="text-base text-white">
@@ -100,8 +100,8 @@ const DesktopResumeContainer = () => {
           improve performance and generally reduce load on the backend.
         </li>
       </ul>
-      <h3 className="text-e2e2e2 my-4 flex items-center text-[0.8rem] font-semibold">
-        <p className="mr-3 basis-1/12 capitalize">Projects</p>
+      <h3 className="my-4 flex items-center text-[0.8rem] font-semibold text-e2e2e2">
+        <p className="mr-3 basis-1/12 font-[Andika] capitalize">Projects</p>
         <span className="h-px basis-10/12 bg-[#77777859]"></span>
       </h3>
       <p className="text-[0.8rem]">

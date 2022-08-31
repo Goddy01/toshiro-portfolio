@@ -3,10 +3,10 @@ import { BsClock } from "react-icons/bs";
 
 const BlogsContainer = () => {
   return (
-    <div className="mb-12 grid w-full gap-2.5 md:grid-cols-2">
+    <div className="darken mb-12 grid w-full gap-2.5 md:grid-cols-2">
       <section className="flex min-h-[350px] flex-col justify-between bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
         <div>
-          <h3 className="text-[0.65rem] font-semibold uppercase tracking-widest text-light-grey">
+          <h3 className="font-[Harmattan] text-xs font-semibold uppercase tracking-widest text-light-grey">
             Year in review, personal
           </h3>
           <p className="text-xs font-medium text-dark-grey">January 01, 2022</p>
@@ -24,7 +24,7 @@ const BlogsContainer = () => {
 
       <section className="flex min-h-[350px] flex-col justify-between bg-box-bg p-10 transition-all duration-300 md:translate-y-6 md:hover:scale-110">
         <div>
-          <h3 className="text-[0.65rem] font-semibold uppercase tracking-widest text-light-grey">
+          <h3 className="font-[Harmattan] text-xs font-semibold uppercase tracking-widest text-light-grey">
             Django, REST
           </h3>
           <p className="text-xs font-medium text-dark-grey">January 01, 2022</p>

@@ -22,9 +22,9 @@ const DesktopIntro = ({ active }) => {
   return (
     <div className="flex h-full flex-col justify-between py-[10%] pl-[8%] pr-[5%]">
       <div>
-        <h1 className="mb-2.5 font-['Inter'] text-4xl font-bold">
+        <h1 className="mb-2.5 text-4xl font-bold">
           Hello, I&apos;m <br />
-          Collins Enebeli.
+          Adigun Godwin.
         </h1>
         <p className="pr-[20%] text-sm leading-loose text-dark-grey">
           I&apos;m a{" "}
@@ -78,7 +78,7 @@ const DesktopIntro = ({ active }) => {
                   to === active ? "w-16 bg-white" : "w-10 bg-dark-grey "
                 }`}
               ></span>
-              <span>{text}</span>
+              <span className="tracking-widest">{text}</span>
             </Link>
           </li>
         ))}
@@ -88,7 +88,7 @@ const DesktopIntro = ({ active }) => {
         <div className="flex items-center">
           <img
             src={avi}
-            className="mr-4 h-11 w-12 rounded-tl-[140%] rounded-tr-[120%] rounded-br-[140%] rounded-bl-[100%]"
+            className="mr-6 h-11 w-12 rounded-tl-[140%] rounded-tr-[120%] rounded-br-[140%] rounded-bl-[100%]"
             alt="avatar"
           />
           <div className="flex items-center gap-x-4 text-xs">

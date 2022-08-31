@@ -11,7 +11,7 @@ const Intro = () => {
           className="mr-4 h-28 w-28 rounded-tl-[140%] rounded-tr-[120%] rounded-br-[140%] rounded-bl-[100%]"
           alt="avatar"
         />
-        <h1 className="px-4 pt-4 text-2xl">Hello, I&apos;m Collins Enebeli.</h1>
+        <h1 className="px-4 pt-4 text-2xl">Hello, I&apos;m Adigun Godwin.</h1>
       </div>
       <p className="text-center text-sm leading-loose text-dark-grey">
         I&apos;m a{" "}
