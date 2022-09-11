@@ -1,9 +1,9 @@
 {
-  "name": "toshiro-live-site",
+  "name": "toshiro-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "toshiro-live-site",
-  "author": "Adeoti Shuaib",
+  "description": "Portfolio site for toshiro",
+  "author": "JustShuaib",
   "keywords": [
     "gatsby"
   ],
