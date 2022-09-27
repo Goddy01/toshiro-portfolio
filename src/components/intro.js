@@ -8,39 +8,36 @@ const Intro = () => {
       <div className="flex flex-col items-center">
         <div
           style={{ backgroundImage: `url(${avi})` }}
-          className="h-28 w-28 rounded-full bg-top"
+          className="h-28 w-28 rounded-full bg-contain bg-top"
         ></div>
         {/* <img
           src={avi}
           className="mr-4 h-28 w-28 rounded-full object-cover"
           alt="avatar"
         /> */}
-        <h1 className="px-4 pt-4 text-2xl">Hello, I&apos;m Adigun Godwin.</h1>
+        <h1 className="px-4 pt-4 text-2xl">Hello, I&apos;m Godwin Adigun.</h1>
       </div>
       <p className="text-center text-sm leading-loose text-dark-grey">
         I am a{" "}
-        <span className="animate-flash text-white opacity-90">
-          Talented backend developer
-        </span>{" "}
-        adept at contributing to highly collaborative work environment,{" "}
+        <span className="animate-flash text-white opacity-90">passionate,</span>
+        talented, and hardworking{" "}
         <span className="animate-flashTwo text-white opacity-90">
-          finding solution
+          Backend Developer
         </span>{" "}
-        and determining customer satisfaction. Designed and developed
+        adept at contributing to highly{" "}
         <span className="animate-flash text-white opacity-90">
-          {" "}
+          collaborative
+        </span>{" "}
+        work environment and building{" "}
+        <span className="animate-flashTwo text-white opacity-90">
           web applications
         </span>{" "}
-        across multiple third-party integrations and databases.{" "}
-        <span className="animate-flashTwo text-white opacity-90">
-          Passionate and hardworking
-        </span>{" "}
-        with penchant for developing{" "}
+        across multiple third-party integrations and databases that factor in
+        specific demands for{" "}
         <span className="animate-flash text-white opacity-90">
-          customized interfaces
-        </span>{" "}
-        that factor in unique demands for accessibility, reachability and
-        security.
+          accessibility
+        </span>
+        , reachability and security.
       </p>
       <div className="m-1 my-5 flex items-center justify-center">
         <Link

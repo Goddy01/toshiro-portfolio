@@ -24,32 +24,31 @@ const DesktopIntro = ({ active }) => {
       <div>
         <h1 className="mb-2.5 text-4xl font-bold">
           Hello, I&apos;m <br />
-          Adigun Godwin.
+          Godwin Adigun.
         </h1>
         <p className="pr-[20%] text-sm leading-loose text-dark-grey">
           I am a{" "}
           <span className="animate-flash text-white opacity-90">
-            Talented backend developer
-          </span>{" "}
-          adept at contributing to highly collaborative work environment,{" "}
+            passionate,
+          </span>
+          talented, and hardworking{" "}
           <span className="animate-flashTwo text-white opacity-90">
-            finding solution
+            Backend Developer
           </span>{" "}
-          and determining customer satisfaction. Designed and developed
+          adept at contributing to highly{" "}
           <span className="animate-flash text-white opacity-90">
-            {" "}
+            collaborative
+          </span>{" "}
+          work environment and building{" "}
+          <span className="animate-flashTwo text-white opacity-90">
             web applications
           </span>{" "}
-          across multiple third-party integrations and databases.{" "}
-          <span className="animate-flashTwo text-white opacity-90">
-            Passionate and hardworking
-          </span>{" "}
-          with penchant for developing{" "}
+          across multiple third-party integrations and databases that factor in
+          specific demands for{" "}
           <span className="animate-flash text-white opacity-90">
-            customized interfaces
-          </span>{" "}
-          that factor in unique demands for accessibility, reachability and
-          security.
+            accessibility
+          </span>
+          , reachability and security.
         </p>
       </div>
 
@@ -85,7 +84,7 @@ const DesktopIntro = ({ active }) => {
         <div className="flex items-center">
           <div
             style={{ backgroundImage: `url(${avi})` }}
-            className="mr-6 h-12 w-12 rounded-full bg-top"
+            className="mr-6 h-12 w-12 rounded-full bg-contain bg-top"
           ></div>
           {/* <img src={avi} className="mr-6 h-11 w-12 rounded-full" alt="avatar" /> */}
           <div className="flex items-center gap-x-4 text-xs">
