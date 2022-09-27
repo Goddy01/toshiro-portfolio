@@ -10,11 +10,13 @@ const Intro = () => {
           style={{ backgroundImage: `url(${avi})` }}
           className="h-28 w-28 rounded-full bg-contain bg-top"
         ></div>
-        <h1 className="px-4 pt-4 text-2xl">Hello, I&apos;m Godwin Adigun.</h1>
+        <h1 className="px-4 pt-4 text-2xl font-semibold">
+          Hello, I&apos;m Godwin Adigun.
+        </h1>
       </div>
       <p className="text-center text-sm leading-loose text-dark-grey">
         I am a{" "}
-        <span className="animate-flash text-white opacity-90">passionate,</span>
+        <span className="animate-flash text-white opacity-90">passionate</span>,{" "}
         talented, and hardworking{" "}
         <span className="animate-flashTwo text-white opacity-90">
           Backend Developer

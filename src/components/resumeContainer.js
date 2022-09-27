@@ -6,7 +6,7 @@ const DesktopResumeContainer = () => {
   return (
     <section className="bg-box-bg p-[5%] text-[0.8rem] text-dark-grey">
       <div className="flex items-baseline justify-between text-white">
-        <h2 className="text-[2.1rem] font-semibold">Adigun Godwin</h2>
+        <h2 className="text-[2.1rem] font-semibold">Godwin Adigun</h2>
 
         <span className="flex items-center justify-between gap-x-3 text-lg md:gap-x-4 md:text-[0.8rem]">
           <a
@@ -29,11 +29,12 @@ const DesktopResumeContainer = () => {
           </a>
         </span>
       </div>
-      <p className="my-[6px] text-cfcfcf">Backend developer</p>
+      <p className="my-[6px] text-cfcfcf">Backend Developer</p>
       <p className="mb-4 text-dark-grey md:mt-6">
-        I’m a Talented backend developer adept at contributing to highly
-        collaborative work environment, finding solution and determining
-        customer satisfaction.
+        I am a passionate, talented, and hardworking Backend Developer adept at
+        contributing to highly collaborative work environment and building web
+        applications across multiple third-party integrations and databases that
+        factor in specific demands for accessibility, reachability and security.
       </p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">Core technologies</p>

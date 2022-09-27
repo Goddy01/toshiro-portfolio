@@ -29,9 +29,9 @@ const DesktopIntro = ({ active }) => {
         <p className="pr-[20%] text-sm leading-loose text-dark-grey">
           I am a{" "}
           <span className="animate-flash text-white opacity-90">
-            passionate,
+            passionate
           </span>
-          talented, and hardworking{" "}
+          , talented, and hardworking{" "}
           <span className="animate-flashTwo text-white opacity-90">
             Backend Developer
           </span>{" "}
@@ -124,12 +124,12 @@ const DesktopIntro = ({ active }) => {
         <p className="mr-3 pt-5 text-[11px] text-dark-grey">
           Inspired by{" "}
           <a
-            href="https://sarahdayan.dev/"
+            href="https://kadet.dev"
             target="_blank"
             rel="noreferrer noopener"
             className="text-[#cecece]"
           >
-            Sarah Dayan
+            Collins Enebeli
           </a>
         </p>
       </footer>

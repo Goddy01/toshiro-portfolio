@@ -30,12 +30,12 @@ const Socials = () => {
       <p className="mr-3 pt-5 text-xs text-dark-grey">
         Inspired by{" "}
         <a
-          href="https://sarahdayan.dev/"
+          href="https://kadet.dev"
           target="_blank"
           rel="noreferrer noopener"
           className="text-[#cecece]"
         >
-          Sarah Dayan
+          Collins Enebeli
         </a>
       </p>
     </div>
