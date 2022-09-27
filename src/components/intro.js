@@ -6,11 +6,15 @@ const Intro = () => {
   return (
     <div className="flex flex-col justify-center">
       <div className="flex flex-col items-center">
-        <img
+        <div
+          style={{ backgroundImage: `url(${avi})` }}
+          className="h-28 w-28 rounded-full bg-top"
+        ></div>
+        {/* <img
           src={avi}
           className="mr-4 h-28 w-28 rounded-full object-cover"
           alt="avatar"
-        />
+        /> */}
         <h1 className="px-4 pt-4 text-2xl">Hello, I&apos;m Adigun Godwin.</h1>
       </div>
       <p className="text-center text-sm leading-loose text-dark-grey">
