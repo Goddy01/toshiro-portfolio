@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import { FaDownload, FaLinkedin } from "react-icons/fa";
 
 const DesktopResumeContainer = () => {
@@ -30,35 +31,36 @@ const DesktopResumeContainer = () => {
       </div>
       <p className="my-[6px] text-cfcfcf">Backend developer</p>
       <p className="mb-4 text-dark-grey md:mt-6">
-        I’m a backend software developer, passionate about solving problems with
-        code and transforming ideas from pixels to scalable products. I create
-        usable applications with user experience as a top priority using various
-        web tools, languages and technology.
+        I’m a Talented backend developer adept at contributing to highly
+        collaborative work environment, finding solution and determining
+        customer satisfaction.
       </p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">Core technologies</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
-      <p>
-        HTML/CSS/SASS, Javascript [ES6+], React JS, Gatsby JS, Next JS, Vue JS,
-        CSS-in-JS, Typescript, GraphQL, Redux, Firebase.
-      </p>
+      <p>HTML, CSS, Bootstrap,JavaScript, JQuery, AJAX, Python, Django, Git</p>
+      <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
+        <p className="mr-2.5 font-[Andika] capitalize">Databases</p>
+        <span className="h-px grow bg-[#77777859]"></span>
+      </h3>
+      <p>MySQL, SQLite3, PostgreSQL</p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">Familiar with</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
-      <p className="text-[0.8rem]">
-        Node JS, Express, Nuxt JS, Unit Testing, Web Sockets, PWAs, Wordpress,
-        SEO.
-      </p>
-      <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
+      <p className="text-[0.8rem]">Java, C, C++</p>
+      {/* <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">On the job</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
       <p className="text-[0.8rem]">
         Agile/Scrum, Version Control, Best Practices, CI/CD
-      </p>
-      <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
+      </p> */}
+
+      {/* ***************** WORK STARTS HERE *********** */}
+
+      {/* <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">Work Experience</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
@@ -99,15 +101,17 @@ const DesktopResumeContainer = () => {
           Implemented api request caching on the server to save resources,
           improve performance and generally reduce load on the backend.
         </li>
-      </ul>
+      </ul> */}
       <h3 className="my-4 flex items-center text-[0.8rem] font-semibold text-e2e2e2">
         <p className="mr-3 basis-1/12 font-[Andika] capitalize">Projects</p>
         <span className="h-px basis-10/12 bg-[#77777859]"></span>
       </h3>
       <p className="text-[0.8rem]">
         Links to my works can be found on{" "}
-        <span className="text-white">/work</span> and more details can be
-        provided upon request.
+        <Link to="/work" className="text-white">
+          /work
+        </Link>{" "}
+        and more details can be provided upon request.
       </p>
     </section>
   );

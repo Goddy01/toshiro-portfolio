@@ -1,10 +1,10 @@
 import React from "react";
-import BlogsContainer from "../components/blogsContainer";
-import Cursor from "../components/cursor";
-import DesktopIntro from "../components/desktopIntro";
-import NavBar from "../components/navBar";
-import NavBtn from "../components/navBtn";
-import Socials from "../components/socials";
+import BlogsContainer from "./blogsContainer";
+import Cursor from "./cursor";
+import DesktopIntro from "./desktopIntro";
+import NavBar from "./navBar";
+import NavBtn from "./navBtn";
+import Socials from "./socials";
 import cursorPos from "../hooks/useGetCursor";
 
 const Blogs = () => {
@@ -34,4 +34,4 @@ const Blogs = () => {
 };
 
 export default Blogs;
-export const Head = () => <title>Toshiro | Blogs </title>;
+export const Head = () => <title>Blogs | Toshiro </title>;

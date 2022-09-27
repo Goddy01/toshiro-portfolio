@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { FaGithub, FaAt, FaTwitter } from "react-icons/fa";
 import { BsArrowUpRight } from "react-icons/bs";
-import avi from "../images/kadet.png";
+import avi from "../images/toshiro-avi.jpeg";
 const routes = [
   {
     to: "",
@@ -12,10 +12,10 @@ const routes = [
     to: "resume",
     text: "resume",
   },
-  {
-    to: "blogs",
-    text: "articles",
-  },
+  // {
+  //   to: "blogs",
+  //   text: "articles",
+  // },
 ];
 
 const DesktopIntro = ({ active }) => {
@@ -27,32 +27,28 @@ const DesktopIntro = ({ active }) => {
           Adigun Godwin.
         </h1>
         <p className="pr-[20%] text-sm leading-loose text-dark-grey">
-          I&apos;m a{" "}
+          I am a
           <span className="animate-flash text-white opacity-90">
-            Backend developer
+            Talented backend developer
           </span>
-          . I create interactive{" "}
+          adept at contributing to highly collaborative work environment,
           <span className="animate-flashTwo text-white opacity-90">
-            experiences
-          </span>{" "}
-          for amazing people using modern{" "}
-          <span className="animate-flash text-white opacity-90">
-            web technology
+            finding solution
           </span>
-          . I am currently
-          <span className="animate-flashTwo text-white opacity-90">
-            {" "}
-            learning
-          </span>{" "}
-          how to write immersive web{" "}
+          and determining customer satisfaction. Designed and developed
           <span className="animate-flash text-white opacity-90">
-            animations
-          </span>{" "}
-          and also exploring the{" "}
+            web applications
+          </span>
+          across multiple third-party integrations and databases.
           <span className="animate-flashTwo text-white opacity-90">
-            decentralized
-          </span>{" "}
-          web.
+            Passionate and hardworking
+          </span>
+          with penchant for developing
+          <span className="animate-flash text-white opacity-90">
+            customized interfaces
+          </span>
+          that factor in unique demands for accessibility, reachability and
+          security.
         </p>
       </div>
 

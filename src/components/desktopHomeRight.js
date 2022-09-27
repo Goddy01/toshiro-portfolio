@@ -5,22 +5,25 @@ const DesktopHomeRight = () => {
   return (
     <>
       <h2 className="my-4 text-xs font-bold uppercase text-dark-grey">
-        featured
+        Projects
       </h2>
       <div className="darken flex flex-col gap-y-8 md:gap-y-3">
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">
-            Guild Protocol
+            Summit Shop
           </h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-3 tracking-wider text-light-grey">
-            NEXTJS + TYPESCRIPT + GSAP
+            HTML + CSS + JAVASCRIPT + AJAX + DJANGO + PAYSTACK PAYMENT GATEWAY
           </p>
           <p className="my-3 h-20 text-xs font-semibold tracking-wider text-dark-grey md:h-10">
-            Landing Page for a play to earn crypto DAO
+            This e-commerce application features Customers and Vendors
+            Registration/Login, User Authorization and Authentication, Add to
+            Cart Functionality for Registered Users and Guest Users, Wishlist,
+            Multi-Customers/Multi-Vendor System, and more....
           </p>
           <div className="inline-flex">
             <a
-              href="http://www.test.com"
+              href="https://summit.up.railway.app"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-start gap-x-1 text-xs text-light-grey hover:text-white"
@@ -31,16 +34,18 @@ const DesktopHomeRight = () => {
         </div>
 
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
-          <h3 className="text-[1.3rem] font-semibold text-white">Caketools</h3>
+          <h3 className="text-[1.3rem] font-semibold text-white">Bloggie</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-3 tracking-wider text-light-grey">
-            NEXT JS + TYPESCRIPT + WEB3
+            HTML + CSS + JAVASCRIPT + DJANGO + CKEDITOR + SQLITE3
           </p>
           <p className="my-3 h-20 text-xs font-semibold tracking-wider text-dark-grey md:h-10">
-            Decentralised charting hub for the BSC Network.
+            Bloggie allows users to write and publish blog posts. It features
+            Users Registration and Login, User Authorization and Authentication
+            and more...
           </p>
           <div className="inline-flex">
             <a
-              href="http://www.test.com"
+              href="https://bloggie-blogapp.herokuapp.com"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
@@ -51,7 +56,7 @@ const DesktopHomeRight = () => {
         </div>
       </div>
 
-      <section>
+      {/* <section>
         <h2 className="mb-6 mt-16 text-[0.7rem] font-semibold uppercase text-dark-grey">
           Others
         </h2>
@@ -228,7 +233,7 @@ const DesktopHomeRight = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

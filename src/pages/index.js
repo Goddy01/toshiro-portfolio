@@ -11,7 +11,7 @@ const Home = () => {
   const [posX, posY] = cursorPos();
   return (
     <>
-      <main className="flex h-screen flex-col justify-between bg-red-500 p-[5%] text-white md:hidden">
+      <main className="flex h-screen flex-col justify-between bg-dark-bg p-[5%] text-white md:hidden">
         <NavBar />
         <Intro />
         <Socials />
@@ -28,4 +28,5 @@ const Home = () => {
 };
 
 export default Home;
-export const Head = () => <title>Toshiro | Adigun Godwin </title>;
+export const Head = () => <title>Home | Toshiro </title>;
+// Todo: Check how to add favicon to gatsby application

@@ -18,7 +18,7 @@ const Work = () => {
         </div>
         <div className="my-8 flex justify-center gap-x-3">
           <NavBtn to="" text="Home" />
-          <NavBtn to="blogs" text="Articles" />
+          <NavBtn to="resume" text="Résumé" />
         </div>
         <Socials />
       </main>
@@ -35,4 +35,4 @@ const Work = () => {
 };
 
 export default Work;
-export const Head = () => <title>Toshiro | Work </title>;
+export const Head = () => <title>Work | Toshiro </title>;

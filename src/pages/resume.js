@@ -17,7 +17,7 @@ const Resume = () => {
           <ResumeContainer />
         </div>
         <div className="my-8 flex justify-center gap-x-3">
-          <NavBtn to="blog" text="Articles" />
+          <NavBtn to="work" text="Work" />
           <NavBtn to="" text="Home" />
         </div>
         <Socials />
@@ -35,4 +35,4 @@ const Resume = () => {
 };
 
 export default Resume;
-export const Head = () => <title>Toshiro | Resume </title>;
+export const Head = () => <title>Resume | Toshiro </title>;
