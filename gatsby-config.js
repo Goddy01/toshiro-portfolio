@@ -4,7 +4,6 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-postcss",
-
     {
       resolve: "gatsby-plugin-manifest",
       options: {
@@ -15,6 +14,12 @@ module.exports = {
         theme_color: "#1b1b1d",
         display: "minimal-ui",
         icon: "src/images/toshiro-avi.jpeg",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-html-attributes",
+      options: {
+        lang: "en-US",
       },
     },
   ],

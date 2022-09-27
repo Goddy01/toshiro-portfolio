@@ -12,6 +12,7 @@ const NavBar = () => {
         </Link>
         <button
           type="button"
+          aria-label="toggle navigation menu"
           className="z-20 flex flex-col items-end"
           onClick={() => setOpen(!open)}
         >
@@ -54,6 +55,7 @@ const NavBar = () => {
                   href="https://github.com/Goddy01"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Go to github"
                 >
                   <FaGithub />
                 </a>
@@ -63,6 +65,7 @@ const NavBar = () => {
                   href="https://twitter.com/toshix2ro"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="My profile on Twitter"
                 >
                   <FaTwitter />
                 </a>
@@ -72,6 +75,7 @@ const NavBar = () => {
                   href="https://linkedin.com/in/godwin-adigun-b5a138219"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="My LinkedIn account"
                 >
                   <FaLinkedin />
                 </a>
@@ -81,6 +85,7 @@ const NavBar = () => {
                   href="mailto:adigungodwin2@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="My email address"
                 >
                   <FaAt />
                 </a>
