@@ -43,9 +43,11 @@ const DesktopIntro = ({ active }) => {
           <span className="animate-flashTwo text-white opacity-90">
             web applications
           </span>{" "}
-          across multiple third-party integrations and databases that factor in
-          specific demands for{" "}
-          <span className="animate-flash text-white opacity-90">
+          across{" "}
+          <span className="animate-flash text-white opacity-90">multiple</span>{" "}
+          third-party integrations and databases that factor in specific demands
+          for{" "}
+          <span className="animate-flashTwo text-white opacity-90">
             accessibility
           </span>
           , reachability and security.
@@ -86,7 +88,6 @@ const DesktopIntro = ({ active }) => {
             style={{ backgroundImage: `url(${avi})` }}
             className="mr-6 h-12 w-12 rounded-full bg-contain bg-top"
           ></div>
-          {/* <img src={avi} className="mr-6 h-11 w-12 rounded-full" alt="avatar" /> */}
           <div className="flex items-center gap-x-4 text-xs">
             <a
               href="https://github.com/Goddy01"

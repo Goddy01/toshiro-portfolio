@@ -10,11 +10,6 @@ const Intro = () => {
           style={{ backgroundImage: `url(${avi})` }}
           className="h-28 w-28 rounded-full bg-contain bg-top"
         ></div>
-        {/* <img
-          src={avi}
-          className="mr-4 h-28 w-28 rounded-full object-cover"
-          alt="avatar"
-        /> */}
         <h1 className="px-4 pt-4 text-2xl">Hello, I&apos;m Godwin Adigun.</h1>
       </div>
       <p className="text-center text-sm leading-loose text-dark-grey">
@@ -32,9 +27,11 @@ const Intro = () => {
         <span className="animate-flashTwo text-white opacity-90">
           web applications
         </span>{" "}
-        across multiple third-party integrations and databases that factor in
-        specific demands for{" "}
-        <span className="animate-flash text-white opacity-90">
+        across{" "}
+        <span className="animate-flash text-white opacity-90">multiple</span>{" "}
+        third-party integrations and databases that factor in specific demands
+        for{" "}
+        <span className="animate-flashTwo text-white opacity-90">
           accessibility
         </span>
         , reachability and security.
