@@ -83,11 +83,7 @@ const DesktopIntro = ({ active }) => {
 
       <footer>
         <div className="flex items-center">
-          <img
-            src={avi}
-            className="mr-6 h-11 w-12 rounded-tl-[140%] rounded-tr-[120%] rounded-br-[140%] rounded-bl-[100%]"
-            alt="avatar"
-          />
+          <img src={avi} className="mr-6 h-11 w-12 rounded-full" alt="avatar" />
           <div className="flex items-center gap-x-4 text-xs">
             <a
               href="https://github.com/Goddy01"
