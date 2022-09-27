@@ -11,7 +11,7 @@ const Home = () => {
   const [posX, posY] = cursorPos();
   return (
     <>
-      <main className="flex h-screen flex-col justify-between bg-dark-bg p-[5%] text-white md:hidden">
+      <main className="flex h-screen flex-col justify-between bg-red-500 p-[5%] text-white md:hidden">
         <NavBar />
         <Intro />
         <Socials />
