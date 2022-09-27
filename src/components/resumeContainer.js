@@ -10,7 +10,7 @@ const DesktopResumeContainer = () => {
 
         <span className="flex items-center justify-between gap-x-3 text-lg md:gap-x-4 md:text-[0.8rem]">
           <a
-            href="www.test.com"
+            href="https://linkedin.com/in/godwin-adigun-b5a138219"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-x-1"

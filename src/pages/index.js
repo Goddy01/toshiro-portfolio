@@ -29,4 +29,3 @@ const Home = () => {
 
 export default Home;
 export const Head = () => <title>Home | Toshiro </title>;
-// Todo: Check how to add favicon to gatsby application

@@ -90,7 +90,7 @@ const DesktopIntro = ({ active }) => {
           />
           <div className="flex items-center gap-x-4 text-xs">
             <a
-              href="https://www.github.com/"
+              href="https://github.com/Goddy01"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-x-2"
@@ -100,7 +100,7 @@ const DesktopIntro = ({ active }) => {
               <BsArrowUpRight className="text-sm opacity-70" />
             </a>
             <a
-              href="https://www.twitter.com/"
+              href="https://twitter.com/toshix2ro"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-x-2"

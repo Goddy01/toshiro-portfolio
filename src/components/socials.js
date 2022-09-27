@@ -6,21 +6,21 @@ const Socials = () => {
     <div className="text-center">
       <div className="flex items-center justify-center gap-x-9 text-xl">
         <a
-          href="https://www.github.com/"
+          href="https://github.com/Goddy01"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaGithub color="white" />
         </a>
         <a
-          href="https://www.twitter.com/"
+          href="https://twitter.com/toshix2ro"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaTwitter color="white" />
         </a>
         <a
-          href="https://www.email.com/"
+          href="mailto:adigungodwin2@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >

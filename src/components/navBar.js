@@ -51,7 +51,7 @@ const NavBar = () => {
             <ul className="mt-4 flex items-center justify-center gap-x-3 text-xl text-dark-grey">
               <li>
                 <a
-                  href="https://www.test.com"
+                  href="https://github.com/Goddy01"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -60,7 +60,7 @@ const NavBar = () => {
               </li>
               <li>
                 <a
-                  href="https://www.test.com"
+                  href="https://twitter.com/toshix2ro"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -69,7 +69,7 @@ const NavBar = () => {
               </li>
               <li>
                 <a
-                  href="https://www.test.com"
+                  href="https://linkedin.com/in/godwin-adigun-b5a138219"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -78,7 +78,7 @@ const NavBar = () => {
               </li>
               <li>
                 <a
-                  href="https://www.test.com"
+                  href="mailto:adigungodwin2@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
