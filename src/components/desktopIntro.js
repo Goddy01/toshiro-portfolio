@@ -27,26 +27,27 @@ const DesktopIntro = ({ active }) => {
           Adigun Godwin.
         </h1>
         <p className="pr-[20%] text-sm leading-loose text-dark-grey">
-          I am a
+          I am a{" "}
           <span className="animate-flash text-white opacity-90">
             Talented backend developer
-          </span>
-          adept at contributing to highly collaborative work environment,
+          </span>{" "}
+          adept at contributing to highly collaborative work environment,{" "}
           <span className="animate-flashTwo text-white opacity-90">
             finding solution
-          </span>
+          </span>{" "}
           and determining customer satisfaction. Designed and developed
           <span className="animate-flash text-white opacity-90">
+            {" "}
             web applications
-          </span>
-          across multiple third-party integrations and databases.
+          </span>{" "}
+          across multiple third-party integrations and databases.{" "}
           <span className="animate-flashTwo text-white opacity-90">
             Passionate and hardworking
-          </span>
-          with penchant for developing
+          </span>{" "}
+          with penchant for developing{" "}
           <span className="animate-flash text-white opacity-90">
             customized interfaces
-          </span>
+          </span>{" "}
           that factor in unique demands for accessibility, reachability and
           security.
         </p>

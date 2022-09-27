@@ -12,10 +12,10 @@ const DesktopHomeRight = () => {
           <h3 className="text-[1.3rem] font-semibold text-white">
             Summit Shop
           </h3>
-          <p className="mb-3 mt-1 text-xs font-semibold leading-3 tracking-wider text-light-grey">
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
             HTML + CSS + JAVASCRIPT + AJAX + DJANGO + PAYSTACK PAYMENT GATEWAY
           </p>
-          <p className="my-3 h-20 text-xs font-semibold tracking-wider text-dark-grey md:h-10">
+          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-10">
             This e-commerce application features Customers and Vendors
             Registration/Login, User Authorization and Authentication, Add to
             Cart Functionality for Registered Users and Guest Users, Wishlist,
@@ -35,10 +35,10 @@ const DesktopHomeRight = () => {
 
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">Bloggie</h3>
-          <p className="mb-3 mt-1 text-xs font-semibold leading-3 tracking-wider text-light-grey">
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
             HTML + CSS + JAVASCRIPT + DJANGO + CKEDITOR + SQLITE3
           </p>
-          <p className="my-3 h-20 text-xs font-semibold tracking-wider text-dark-grey md:h-10">
+          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-10">
             Bloggie allows users to write and publish blog posts. It features
             Users Registration and Login, User Authorization and Authentication
             and more...
