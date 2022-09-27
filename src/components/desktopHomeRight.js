@@ -10,10 +10,11 @@ const DesktopHomeRight = () => {
       <div className="darken flex flex-col gap-y-8 md:gap-y-3">
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">
-            Summit Shop
+            Summit E-Shop
           </h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
-            HTML + CSS + JAVASCRIPT + AJAX + DJANGO + PAYSTACK PAYMENT GATEWAY
+            HTML + CSS + JAVASCRIPT + AJAX + DJANGO + PAYSTACK PAYMENT GATEWAY +
+            POSTGRESQL + AWS
           </p>
           <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-10">
             This e-commerce application features Customers and Vendors
@@ -21,7 +22,7 @@ const DesktopHomeRight = () => {
             Cart Functionality for Registered Users and Guest Users, Wishlist,
             Multi-Customers/Multi-Vendor System, and more....
           </p>
-          <div className="inline-flex">
+          <div className="flex items-center gap-x-4">
             <a
               href="https://summit.up.railway.app"
               target="_blank"
@@ -30,20 +31,28 @@ const DesktopHomeRight = () => {
             >
               <FaEye /> <span>Live</span>
             </a>
+            <a
+              href="https://github.com/Goddy01/E-commerce"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaCodeBranch /> <span>Code</span>
+            </a>
           </div>
         </div>
 
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">Bloggie</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
-            HTML + CSS + JAVASCRIPT + DJANGO + CKEDITOR + SQLITE3
+            HTML + CSS + JAVASCRIPT + DJANGO + CKEDITOR + SQLITE3 + AWS
           </p>
           <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-10">
             Bloggie allows users to write and publish blog posts. It features
             Users Registration and Login, User Authorization and Authentication
             and more...
           </p>
-          <div className="inline-flex">
+          <div className="flex items-center gap-x-4">
             <a
               href="https://bloggie-blogapp.herokuapp.com"
               target="_blank"
@@ -51,6 +60,14 @@ const DesktopHomeRight = () => {
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
             >
               <FaEye /> <span>Live</span>
+            </a>
+            <a
+              href="https://github.com/Goddy01/Blogging-Site-Latest"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaCodeBranch /> <span>Code</span>
             </a>
           </div>
         </div>
