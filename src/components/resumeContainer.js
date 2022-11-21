@@ -19,9 +19,9 @@ const DesktopResumeContainer = () => {
             <span className="hidden md:flex">LinkedIn</span>
           </a>
           <a
-            href="www.test.com"
+            href="../GodwinAdigunResume.pdf"
             target="_blank"
-            rel="noopener noreferrer"
+            download
             className="flex items-center gap-x-1"
           >
             <FaDownload />
