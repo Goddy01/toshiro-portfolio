@@ -37,27 +37,36 @@ const DesktopResumeContainer = () => {
         factor in specific demands for accessibility, reachability and security.
       </p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
-        <p className="mr-2.5 font-[Andika] capitalize">Core technologies</p>
+        <p className="mr-2.5 font-[Andika] capitalize">Languages</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
-      <p>HTML, CSS, Bootstrap,JavaScript, JQuery, AJAX, Python, Django, Git</p>
-      <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
-        <p className="mr-2.5 font-[Andika] capitalize">Familiar with</p>
-        <span className="h-px grow bg-[#77777859]"></span>
-      </h3>
-      <p className="text-[0.8rem]">Java, C, C++</p>
+      <p>HTML, CSS, JavaScript, Python</p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">Databases</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
-      <p>MySQL, SQLite3, PostgreSQL</p>
-      {/* <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
-        <p className="mr-2.5 font-[Andika] capitalize">On the job</p>
+      <p>MySQL, PostgreSQL</p>
+      <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
+        <p className="mr-2.5 font-[Andika] capitalize">Technologies</p>
+        <span className="h-px grow bg-[#77777859]"></span>
+      </h3>
+      <p>
+        JQuery, Bootstrap, AJAX, Git, AWS, Bash, Railway, Heroku, Jupyter,
+        Django
+      </p>
+      <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
+        <p className="mr-2.5 font-[Andika] capitalize">APIs</p>
+        <span className="h-px grow bg-[#77777859]"></span>
+      </h3>
+      <p className="text-[0.8rem]">Django REST Framework, REST API</p>
+      <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
+        <p className="mr-2.5 font-[Andika] capitalize">Soft Skills</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
       <p className="text-[0.8rem]">
-        Agile/Scrum, Version Control, Best Practices, CI/CD
-      </p> */}
+        Good Communication, Teamwork, Critical Thinking, Adaptability, Research,
+        Management
+      </p>
 
       {/* ***************** WORK STARTS HERE *********** */}
 
