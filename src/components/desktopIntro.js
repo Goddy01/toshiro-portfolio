@@ -110,7 +110,7 @@ const DesktopIntro = ({ active }) => {
               <BsArrowUpRight className="text-sm opacity-70" />
             </a>
             <a
-              href="https://www.email.com/"
+              href="mailto:adigungodwin2@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-x-2"
