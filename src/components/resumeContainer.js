@@ -19,7 +19,7 @@ const DesktopResumeContainer = () => {
             <span className="hidden md:flex">LinkedIn</span>
           </a>
           <a
-            href="https://drive.google.com/file/d/14k1u_2HvRo9mKRJqJb50uopIh3XL-L18/view?usp=share_link"
+            href="https://drive.google.com/file/d/1fuPVWFJTdfXVLE5TKBAWA8yWjljln9rO/view?usp=sharing"
             target="_blank"
             download
             className="flex items-center gap-x-1"
@@ -58,7 +58,7 @@ const DesktopResumeContainer = () => {
         <p className="mr-2.5 font-[Andika] capitalize">APIs</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
-      <p className="text-[0.8rem]">Django REST Framework, REST API</p>
+      <p className="text-[0.8rem]">Django REST Framework, REST API, Paystack Payment Gateway API, TMDB (The Movie Database) API</p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">Soft Skills</p>
         <span className="h-px grow bg-[#77777859]"></span>
