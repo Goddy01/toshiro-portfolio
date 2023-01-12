@@ -117,7 +117,7 @@ const DesktopHomeRight = () => {
           </p>
           <div className="flex items-center gap-x-4">
             <a
-              href="https://bloggie-blogapp.herokuapp.com"
+              href="https://bloggie.up.railway.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
