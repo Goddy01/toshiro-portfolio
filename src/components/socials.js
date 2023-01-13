@@ -19,13 +19,13 @@ const Socials = () => {
         >
           <FaTwitter color="white" />
         </a>
-        <a
+        {/* <a
           href="https://linkedin.com/in/godwin-adigun-b5a138219"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaLinkedin color="white" />
-        </a>
+        </a> */}
         <a
           href="mailto:adigungodwin2@gmail.com"
           target="_blank"
