@@ -19,7 +19,7 @@ const DesktopResumeContainer = () => {
             <span className="hidden md:flex">LinkedIn</span>
           </a>
           <a
-            href="https://drive.google.com/file/d/1fuPVWFJTdfXVLE5TKBAWA8yWjljln9rO/view?usp=sharing"
+            href="https://drive.google.com/file/d/1M28nQuYIqn3G39NFafq4vCZaJdQerUnw/view?usp=sharing"
             target="_blank"
             download
             className="flex items-center gap-x-1"
