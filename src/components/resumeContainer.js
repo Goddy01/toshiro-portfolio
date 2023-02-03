@@ -48,8 +48,7 @@ const DesktopResumeContainer = () => {
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
       <p>
-        JQuery, Bootstrap, AJAX, Git, AWS, Bash, Railway, Heroku, Jupyter,
-        Django
+        Django, Celery, Git, Bash, AWS S3, Ajax, JQuery, Bootstrap, AJAX, Git, AWS, Bash, Railway, Heroku, Jupyter.
       </p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">APIs</p>
