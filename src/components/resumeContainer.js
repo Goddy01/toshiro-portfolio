@@ -31,10 +31,7 @@ const DesktopResumeContainer = () => {
       </div>
       <p className="my-[6px] text-cfcfcf">Backend Developer</p>
       <p className="mb-4 text-dark-grey md:mt-6">
-        I am a passionate, talented, and hardworking Backend Developer adept at
-        contributing to highly collaborative work environment and building web
-        applications across multiple third-party integrations and databases that
-        factor in specific demands for accessibility, reachability and security.
+      As a highly motivated and dedicated Backend Developer, I bring a combination of passion, discipline, and hard work to my role. I excel in working within a collaborative environment, utilizing my expertise to develop web applications that integrate with multiple third-party systems and databases. I am also experienced in ensuring that the applications I create meet the necessary standards for accessibility, reachability, and security.
       </p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">Languages</p>
