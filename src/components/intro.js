@@ -17,12 +17,12 @@ const Intro = () => {
       <p className="pr-[20%] text-sm leading-loose text-dark-grey">
           I am a{" "}
           <span className="animate-flash text-white opacity-90">
-          backend developer
+          backend
           </span>{" "}
           <span className="animate-flashTwo text-white opacity-90">
-          driven 
+            developer
           </span>{" "}
-          by a{" "}
+          driven by a{" "}
           <span className="animate-flash text-white opacity-90">
             passion{" "}
           </span>
