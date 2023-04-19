@@ -27,15 +27,22 @@ const DesktopIntro = ({ active }) => {
           Godwin Adigun.
         </h1>
         <p className="pr-[20%] text-sm leading-loose text-dark-grey">
-          I am driven by a{" "}
+          I am a{" "}
           <span className="animate-flash text-white opacity-90">
-            passion
+          backend developer
+          </span>{" "}
+          <span className="animate-flashTwo text-white opacity-90">
+          driven 
+          </span>{" "}
+          by a{" "}
+          <span className="animate-flash text-white opacity-90">
+            passion{" "}
           </span>
           for{" "}
           <span className="animate-flashTwo text-white opacity-90">
-            learning and gaining commercial experience
+            learning and gaining commercial experience,
           </span>{" "}
-          , seeking an{" "}
+          seeking an{" "}
           <span className="animate-flash text-white opacity-90">
             entry-level position
           </span>{" "}
@@ -49,17 +56,17 @@ const DesktopIntro = ({ active }) => {
           </span>{" "}
           I have experience {" "}
           <span className="animate-flashTwo text-white opacity-90">
-          developing complex web applications
+          developing complex web applications,
           </span>{" "}
-          , {" "}
+          {" "}
           <span className="animate-flash text-white opacity-90">
-          building RESTful APIs
+          building RESTful APIs,
           </span>{" "}
-          , {" "}
+          {" "}
           <span className="animate-flashTwo text-white opacity-90">
-          integrating third-party APIs
+          integrating third-party APIs,
           </span>{" "}
-          , and {" "}
+          and {" "}
           <span className="animate-flash text-white opacity-90">
           designing efficient database architectures 
           </span>{" "}

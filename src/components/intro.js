@@ -14,30 +14,55 @@ const Intro = () => {
           Hello, I&apos;m Godwin Adigun.
         </h1>
       </div>
-      <p className="text-center text-sm leading-loose text-dark-grey">
-        I am a{" "}
-        <span className="animate-flash text-white opacity-90">passionate</span>,{" "}
-        talented, and hardworking{" "}
-        <span className="animate-flashTwo text-white opacity-90">
-          Backend Developer
-        </span>{" "}
-        adept at contributing to highly{" "}
-        <span className="animate-flash text-white opacity-90">
-          collaborative
-        </span>{" "}
-        work environment and building{" "}
-        <span className="animate-flashTwo text-white opacity-90">
-          web applications
-        </span>{" "}
-        across{" "}
-        <span className="animate-flash text-white opacity-90">multiple</span>{" "}
-        third-party integrations and databases that factor in specific demands
-        for{" "}
-        <span className="animate-flashTwo text-white opacity-90">
-          accessibility
-        </span>
-        , reachability and security.
-      </p>
+      <p className="pr-[20%] text-sm leading-loose text-dark-grey">
+          I am a{" "}
+          <span className="animate-flash text-white opacity-90">
+          backend developer
+          </span>{" "}
+          <span className="animate-flashTwo text-white opacity-90">
+          driven 
+          </span>{" "}
+          by a{" "}
+          <span className="animate-flash text-white opacity-90">
+            passion{" "}
+          </span>
+          for{" "}
+          <span className="animate-flashTwo text-white opacity-90">
+            learning and gaining commercial experience,
+          </span>{" "}
+          seeking an{" "}
+          <span className="animate-flash text-white opacity-90">
+            entry-level position
+          </span>{" "}
+           in a{" "}
+            <span className="animate-flashTwo text-white opacity-90"> 
+          challenging environment 
+          </span>{" "}
+          where I can {" "}
+          <span className="animate-flash text-white opacity-90">
+          grow both professionally and personally. 
+          </span>{" "}
+          I have experience {" "}
+          <span className="animate-flashTwo text-white opacity-90">
+          developing complex web applications,
+          </span>{" "}
+          {" "}
+          <span className="animate-flash text-white opacity-90">
+          building RESTful APIs,
+          </span>{" "}
+          {" "}
+          <span className="animate-flashTwo text-white opacity-90">
+          integrating third-party APIs,
+          </span>{" "}
+          and {" "}
+          <span className="animate-flash text-white opacity-90">
+          designing efficient database architectures 
+          </span>{" "}
+          while {" "}
+          <span className="animate-flashTwo text-white opacity-90">
+          adhering to best practices.
+          </span>{" "}
+        </p>
       <div className="m-1 my-5 flex items-center justify-center">
         <Link
           to="/work"
