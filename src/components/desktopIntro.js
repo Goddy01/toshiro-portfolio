@@ -27,30 +27,46 @@ const DesktopIntro = ({ active }) => {
           Godwin Adigun.
         </h1>
         <p className="pr-[20%] text-sm leading-loose text-dark-grey">
-          I am a{" "}
+          I am driven by a{" "}
           <span className="animate-flash text-white opacity-90">
-            passionate
+            passion
           </span>
-          , talented, and hardworking{" "}
-          <span className="animate-flashTwo text-white opacity-90">
-            Backend Developer
-          </span>{" "}
-          adept at contributing to highly{" "}
-          <span className="animate-flash text-white opacity-90">
-            collaborative
-          </span>{" "}
-          work environment and building{" "}
-          <span className="animate-flashTwo text-white opacity-90">
-            web applications
-          </span>{" "}
-          across{" "}
-          <span className="animate-flash text-white opacity-90">multiple</span>{" "}
-          third-party integrations and databases that factor in specific demands
           for{" "}
           <span className="animate-flashTwo text-white opacity-90">
-            accessibility
-          </span>
-          , reachability and security.
+            learning and gaining commercial experience
+          </span>{" "}
+          , seeking an{" "}
+          <span className="animate-flash text-white opacity-90">
+            entry-level position
+          </span>{" "}
+           in a{" "}
+            <span className="animate-flashTwo text-white opacity-90"> 
+          challenging environment 
+          </span>{" "}
+          where I can {" "}
+          <span className="animate-flash text-white opacity-90">
+          grow both professionally and personally. 
+          </span>{" "}
+          I have experience {" "}
+          <span className="animate-flashTwo text-white opacity-90">
+          developing complex web applications
+          </span>{" "}
+          , {" "}
+          <span className="animate-flash text-white opacity-90">
+          building RESTful APIs
+          </span>{" "}
+          , {" "}
+          <span className="animate-flashTwo text-white opacity-90">
+          integrating third-party APIs
+          </span>{" "}
+          , and {" "}
+          <span className="animate-flash text-white opacity-90">
+          designing efficient database architectures 
+          </span>{" "}
+          while {" "}
+          <span className="animate-flashTwo text-white opacity-90">
+          adhering to best practices.
+          </span>{" "}
         </p>
       </div>
 

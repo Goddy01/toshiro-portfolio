@@ -19,7 +19,7 @@ const DesktopResumeContainer = () => {
             <span className="hidden md:flex">LinkedIn</span>
           </a>
           <a
-            href="https://drive.google.com/file/d/1M28nQuYIqn3G39NFafq4vCZaJdQerUnw/view?usp=sharing"
+            href="https://drive.google.com/file/d/1hVZWZnLkzdcuxwc-dXPX4u20jwvthZmm/view?usp=share_link"
             target="_blank"
             download
             className="flex items-center gap-x-1"
@@ -31,7 +31,7 @@ const DesktopResumeContainer = () => {
       </div>
       <p className="my-[6px] text-cfcfcf">Backend Developer</p>
       <p className="mb-4 text-dark-grey md:mt-6">
-      As a highly motivated and dedicated Backend Developer, I bring a combination of passion, discipline, and hard work to my role. I excel in working within a collaborative environment, utilizing my expertise to develop web applications that integrate with multiple third-party systems and databases. I am also experienced in ensuring that the applications I create meet the necessary standards for accessibility, reachability, and security.
+        I am driven by a passion for learning and gaining commercial experience, seeking an entry-level position in a challenging environment where I can grow both professionally and personally. I have experience developing complex web applications building RESTful APIs, integrating third-party APIs, and designing efficient database architectures while adhering to best practices.
       </p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">Languages</p>
@@ -42,19 +42,24 @@ const DesktopResumeContainer = () => {
         <p className="mr-2.5 font-[Andika] capitalize">Databases</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
-      <p>PostgreSQL, MySQL, SQLite</p>
+      <p>PostgreSQL, MySQL, SQLite3</p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">Technologies</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
       <p>
-        Django, Celery, Git, Bash, AWS S3, Ajax, JQuery, Bootstrap, Railway, Heroku, Jupyter.
+        Celery, Git, Bash, AWS S3, Railway, Heroku, Jupyter.
       </p>
+      <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
+        <p className="mr-2.5 font-[Andika] capitalize">Frameworks</p>
+        <span className="h-px grow bg-[#77777859]"></span>
+      </h3>
+      <p className="text-[0.8rem]">Bootstrap, jQuery, Ajax, Django, Django Rest Framework</p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">APIs</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
-      <p className="text-[0.8rem]">Django REST Framework, REST API, Paystack Payment Gateway API, TMDB (The Movie Database) API</p>
+      <p className="text-[0.8rem]">RESTful API, Paystack Payment Gateway API, TMDB (The Movie Database) API</p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">Soft Skills</p>
         <span className="h-px grow bg-[#77777859]"></span>
