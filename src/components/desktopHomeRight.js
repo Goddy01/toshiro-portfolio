@@ -1,5 +1,5 @@
 import React from "react";
-import { FaEye, FaCodeBranch, FaCube } from "react-icons/fa";
+import {FaEye, FaCodeBranch, FaCube} from "react-icons/fa";
 
 const DesktopHomeRight = () => {
   return (
@@ -8,15 +8,17 @@ const DesktopHomeRight = () => {
         Projects
       </h2>
       <div className="darken flex flex-col gap-y-8 md:gap-y-3">
-      <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
-          <h3 className="text-[1.3rem] font-semibold text-white">
-            FlixGo
-          </h3>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">FlixGo</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
-            HTML + CSS + JAVASCRIPT + DJANGO + POSTGRESQL + TMDB API + AWS S3 + RAILWAY
+            HTML + CSS + JAVASCRIPT + DJANGO + POSTGRESQL + TMDB API + AWS S3 +
+            RAILWAY
           </p>
-          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-10">
-            This web application utilizes TMDB (The Movie Database) API to retrieve movies and tv shows information. This web application features Watchlist, User Registration and Login, Account Signup Confirmation, User Authentication, Password Reset and more...
+          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
+            This web application utilizes TMDB (The Movie Database) API to
+            retrieve movies and tv shows information. This web application
+            features Watchlist, User Registration and Login, Account Signup
+            Confirmation, User Authentication, Password Reset and more...
           </p>
           <div className="flex items-center gap-x-4">
             <a
@@ -108,7 +110,8 @@ const DesktopHomeRight = () => {
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">Bloggie</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
-            HTML + CSS + JAVASCRIPT + DJANGO + CKEDITOR + SQLITE3 + AWS S3 + RAILWAY
+            HTML + CSS + JAVASCRIPT + DJANGO + CKEDITOR + SQLITE3 + AWS S3 +
+            RAILWAY
           </p>
           <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-10">
             Bloggie allows users to write and publish blog posts. It features
@@ -134,7 +137,6 @@ const DesktopHomeRight = () => {
             </a>
           </div>
         </div>
-
       </div>
 
       {/* <section>
