@@ -14,14 +14,9 @@ const DesktopHomeRight = () => {
             HTML + CSS + BOOTSTRAP + JAVASCRIPT + jQuery + AJAX +  DJANGO + DJANGO CHANNELS + WEBSOCKET + REDIS + RABBITMQ + CELERY + DOCKER + GIT + POSTGRESQL + PAYSTACK PAYMENT GATEWAY API + GOOGLE OAUTH
           </p>
           <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
-          Revolutionizing crowdsourcing and crowdfunding, this independent web application caters to distinct 
-          user types and introduces features such as a specialized moderator role, robust chat systems, automatic 
-          group chat inclusion, and user-friendly search functionality. Users can share ideas, upvote/downvote 
-          contributions, and mark the most impactful ones. Real-time milestone updates and efficient fund 
-          management enhance the user experience. Technological advancements include Docker for containerization, 
-          Redis for chat system responsiveness, and Celery/RabbitMQ for scalability. The platform is deployed on a serverless infrastructure for optimal performance.
+          Transforming crowdsourcing and crowdfunding, this platform accommodates diverse user roles with features like a dedicated moderator function, robust chat systems, automatic group chat inclusion, and a user-friendly search feature. Users can collaborate, vote on contributions, and highlight impactful ones. Real-time updates and streamlined fund management elevate the overall user experience
           </p>
-          <div className="flex items-center gap-x-4">
+          <div className="flex items-center gap-x-4 my-8">
             <a
               href="https://flixgo.up.railway.app"
               target="_blank"
