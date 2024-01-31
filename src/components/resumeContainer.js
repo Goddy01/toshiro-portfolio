@@ -29,10 +29,10 @@ const DesktopResumeContainer = () => {
           </a>
         </span>
       </div>
-      <p className="my-[6px] text-cfcfcf">Backend Developer</p>
-      <p className="mb-4 text-dark-grey md:mt-6">
-      I stand as a dedicated and dynamic backend developer, distinguished by an insatiable thirst for learning and a fervent commitment to delivering excellence. In pursuit of an entry-level position, I bring a unique blend of passion and expertise to a challenging and innovative environment. My journey involves shaping efficient, secure, and scalable web applications, with a specialized focus on crafting robust RESTful APIs. With a knack for seamlessly integrating third-party APIs and a penchant for designing sleek database architectures, I consistently uphold industry best practices. Elevate your expectations—I am not just a developer; I am a catalyst for transformative digital solutions.
-      </p>
+      <b className="my-[6px] text-cfcfcf">Backend Developer</b>
+      {/* <p className="mb-4 text-dark-grey md:mt-6">
+        I stand as a dedicated and dynamic backend developer, distinguished by an insatiable thirst for learning and a fervent commitment to delivering excellence. In pursuit of an entry-level position, I bring a unique blend of passion and expertise to a challenging and innovative environment. My journey involves shaping efficient, secure, and scalable web applications, with a specialized focus on crafting robust RESTful APIs. With a knack for seamlessly integrating third-party APIs and a penchant for designing sleek database architectures, I consistently uphold industry best practices. Elevate your expectations—I am not just a developer; I am a catalyst for transformative digital solutions.
+      </p> */}
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">Languages</p>
         <span className="h-px grow bg-[#77777859]"></span>

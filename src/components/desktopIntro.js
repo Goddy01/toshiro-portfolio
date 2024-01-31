@@ -26,54 +26,28 @@ const DesktopIntro = ({ active }) => {
           Hello, I&apos;m <br />
           Godwin Adigun.
         </h1>
-        <p className="pr-[20%] text-sm leading-loose text-dark-grey">
-          I am a{" "}
-          <span className="animate-flash text-white opacity-90">
-          backend
-          </span>{" "}
-          <span className="animate-flashTwo text-white opacity-90">
-            developer
-          </span>{" "}
-          driven by a{" "}
-          <span className="animate-flash text-white opacity-90">
-            passion{" "}
-          </span>
+        <p className="text-sm leading-loose text-dark-grey">
+          I stand as a{" "}
+          <span className="animate-flash text-white opacity-90">dedicated</span>{" "}
+          <span className="animate-flashTwo text-white opacity-90">and dynamic</span>{" "}
+          <span className="animate-flash text-white opacity-90">backend</span>{" "}
+          <span className="animate-flashTwo text-white opacity-90">developer</span>, distinguished by an{" "}
+          <span className="animate-flash text-white opacity-90">insatiable thirst</span>{" "}
           for{" "}
-          <span className="animate-flashTwo text-white opacity-90">
-            learning and gaining commercial experience,
-          </span>{" "}
-          seeking an{" "}
-          <span className="animate-flash text-white opacity-90">
-            entry-level position
-          </span>{" "}
-           in a{" "}
-            <span className="animate-flashTwo text-white opacity-90"> 
-          challenging environment 
-          </span>{" "}
-          where I can {" "}
-          <span className="animate-flash text-white opacity-90">
-          grow both professionally and personally. 
-          </span>{" "}
-          I have experience {" "}
-          <span className="animate-flashTwo text-white opacity-90">
-          developing complex web applications,
-          </span>{" "}
-          {" "}
-          <span className="animate-flash text-white opacity-90">
-          building RESTful APIs,
-          </span>{" "}
-          {" "}
-          <span className="animate-flashTwo text-white opacity-90">
-          integrating third-party APIs,
-          </span>{" "}
-          and {" "}
-          <span className="animate-flash text-white opacity-90">
-          designing efficient database architectures 
-          </span>{" "}
-          while {" "}
-          <span className="animate-flashTwo text-white opacity-90">
-          adhering to best practices.
-          </span>{" "}
+          <span className="animate-flashTwo text-white opacity-90">learning</span> and a fervent commitment to delivering{" "}
+          <span className="animate-flash text-white opacity-90">excellence</span>. In pursuit of an{" "}
+          <span className="animate-flashTwo text-white opacity-90">entry-level position</span>, I bring a{" "}
+          <span className="animate-flash text-white opacity-90">unique blend</span> of{" "}
+          <span className="animate-flashTwo text-white opacity-90">passion</span> and expertise to a{" "}
+          <span className="animate-flash text-white opacity-90">challenging and innovative environment</span>. My journey involves shaping{" "}
+          <span className="animate-flashTwo text-white opacity-90">efficient, secure, and scalable web applications</span>, with a specialized focus on crafting{" "}
+          <span className="animate-flash text-white opacity-90">robust RESTful APIs</span>. With a{" "}
+          <span className="animate-flashTwo text-white opacity-90">knack for seamlessly integrating</span>{" "}
+          <span className="animate-flash text-white opacity-90">third-party APIs</span> and a penchant for{" "}
+          <span className="animate-flashTwo text-white opacity-90">designing sleek database architectures</span>, I consistently uphold{" "}
+          <span className="animate-flash text-white opacity-90">industry best practices</span>. Elevate your expectations—I am not just a{" "}
+          <span className="animate-flashTwo text-white opacity-90">developer</span>; I am a{" "}
+          <span className="animate-flash text-white opacity-90">catalyst for transformative digital solutions</span>.
         </p>
       </div>
 
