@@ -18,15 +18,15 @@ const DesktopHomeRight = () => {
           </p>
           <div className="flex items-center gap-x-4 my-8">
             <a
-              href="https://flixgo.up.railway.app"
+              
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-start gap-x-1 text-xs text-light-grey hover:text-white"
             >
-              <FaEye /> <span>Live</span>
+              <FaEye /> <span>Deployment In Progress </span>
             </a>
             <a
-              href="https://github.com/Goddy01/Movie-App"
+              href="https://github.com/Goddy01/crowdsourcing-platform"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
@@ -115,14 +115,14 @@ const DesktopHomeRight = () => {
             Authorization and Authentication,Payment Gateway and more...
           </p>
           <div className="flex items-center gap-x-4">
-            <a
+            {/* <a
               href="https://oduduwashrine.up.railway.app"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
             >
               <FaEye /> <span>Live</span>
-            </a>
+            </a> */}
             <a
               href="https://github.com/Goddy01/Shrine-Web-App"
               target="_blank"
@@ -146,14 +146,14 @@ const DesktopHomeRight = () => {
             and more...
           </p>
           <div className="flex items-center gap-x-4">
-            <a
+            {/* <a
               href="https://bloggie.up.railway.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
             >
               <FaEye /> <span>Live</span>
-            </a>
+            </a> */}
             <a
               href="https://github.com/Goddy01/Blogging-Site-Latest"
               target="_blank"
