@@ -34,32 +34,39 @@ const DesktopResumeContainer = () => {
         I stand as a dedicated and dynamic backend developer, distinguished by an insatiable thirst for learning and a fervent commitment to delivering excellence. In pursuit of an entry-level position, I bring a unique blend of passion and expertise to a challenging and innovative environment. My journey involves shaping efficient, secure, and scalable web applications, with a specialized focus on crafting robust RESTful APIs. With a knack for seamlessly integrating third-party APIs and a penchant for designing sleek database architectures, I consistently uphold industry best practices. Elevate your expectations—I am not just a developer; I am a catalyst for transformative digital solutions.
       </p> */}
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
-        <p className="mr-2.5 font-[Andika] capitalize">Languages</p>
+        <p className="mr-2.5 font-[Andika] capitalize">Frontend Development</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
-      <p>HTML, CSS, JavaScript, Python</p>
+      <p>HTML, CSS, Bootstrap, JavaScript, jQuery, and AJAX</p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
-        <p className="mr-2.5 font-[Andika] capitalize">Databases</p>
+        <p className="mr-2.5 font-[Andika] capitalize">Backend Development</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
-      <p>PostgreSQL, MySQL, SQLite3</p>
+      <p>Python, Django, Django Channels, Django Rest Framework, and Websocket</p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
-        <p className="mr-2.5 font-[Andika] capitalize">Technologies</p>
+        <p className="mr-2.5 font-[Andika] capitalize">Devops & Containerization</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
       <p>
-        Celery, Git, Bash, AWS S3, Railway, Heroku, Jupyter.
+        Docker, Google App Engine, AWS EC2, Amazon S3, and Git
       </p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
-        <p className="mr-2.5 font-[Andika] capitalize">Frameworks</p>
+        <p className="mr-2.5 font-[Andika] capitalize">Message Brokers & Queues</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
-      <p className="text-[0.8rem]">Bootstrap, jQuery, Ajax, Django, Django Rest Framework</p>
+      <p className="text-[0.8rem]">Redis, RabbitMQ, and Celery</p>
+      <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
+        <p className="mr-2.5 font-[Andika] capitalize">Database</p>
+        <span className="h-px grow bg-[#77777859]"></span>
+      </h3>
+      <p className="text-[0.8rem]">PostgreSQL and MySQL</p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">APIs</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
-      <p className="text-[0.8rem]">RESTful API, Paystack Payment Gateway API, TMDB (The Movie Database) API</p>
+      <p className="text-[0.8rem]">Building RESTful APIs</p>
+      <p>Proficient in integrating various third-party APIs and packages to enhance functionality
+      including payment gateways, authentication services, and content management tools</p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">Soft Skills</p>
         <span className="h-px grow bg-[#77777859]"></span>
