@@ -70,7 +70,11 @@ const DesktopIntro = ({ active }) => {
       <footer>
         <div className="flex items-center">
           <div
-            style={{ backgroundImage: `url(${avi})` }}
+            style={{
+              backgroundImage: `url(${avi})`,
+              backgroundPosition: 'center bottom',
+              backgroundSize: 'cover'
+            }}
             className="mr-6 h-12 w-12 rounded-full bg-contain bg-top"
           ></div>
           <div className="flex items-center gap-x-4 text-xs">
