@@ -15,16 +15,16 @@ const Intro = () => {
         </h1>
       </div>
       <p className="text-sm leading-loose text-dark-grey">
-          I stand as a{" "}
-          <span className="animate-flash text-white opacity-90">dedicated</span>{" "}
-          <span className="animate-flashTwo text-white opacity-90">and dynamic</span>{" "}
-          <span className="animate-flash text-white opacity-90">fullstack</span>{" "}
-          <span className="animate-flashTwo text-white opacity-90">developer</span>, distinguished by an{" "}
-          <span className="animate-flash text-white opacity-90">insatiable thirst</span>{" "}
-          for{" "}
-          <span className="animate-flashTwo text-white opacity-90">learning</span> and a fervent commitment to delivering{" "}
-          <span className="animate-flash text-white opacity-90">excellenct, efficient, secure, and scalable web applications</span>. 
-        </p>
+        I stand as a{" "}
+        <span className="animate-flash text-white opacity-90">versatile</span>{" "}
+        <span className="animate-flashTwo text-white opacity-90">and innovative</span>{" "}
+        <span className="animate-flash text-white opacity-90">fullstack</span>{" "}
+        <span className="animate-flashTwo text-white opacity-90">developer</span>, distinguished by an{" "}
+        <span className="animate-flash text-white opacity-90">insatiable curiosity</span>{" "}
+        for{" "}
+        <span className="animate-flashTwo text-white opacity-90">cutting-edge technologies</span> and a fervent commitment to crafting{" "}
+        <span className="animate-flash text-white opacity-90">robust, user-centric solutions from frontend to backend</span>.
+      </p>
 
       <div className="m-1 my-5 flex items-center justify-center">
         <Link
