@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { FaGithub, FaAt, FaTwitter } from "react-icons/fa";
 import { BsArrowUpRight } from "react-icons/bs";
-import avi from "../images/toshiro-avi.jpeg";
+import avi from "../images/toshiro-new-avi.jpeg";
 const routes = [
   {
     to: "",

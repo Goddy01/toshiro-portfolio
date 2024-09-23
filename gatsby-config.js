@@ -13,7 +13,7 @@ module.exports = {
         background_color: "#1b1b1d",
         theme_color: "#1b1b1d",
         display: "minimal-ui",
-        icon: "src/images/toshiro-avi.jpeg",
+        icon: "src/images/toshiro-new-avi.jpeg",
       },
     },
     {

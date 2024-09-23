@@ -105,7 +105,7 @@ const DesktopHomeRight = () => {
             REACT
           </p>
           <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
-          Developed and launched a streamlined web app for efficiently setting up and tracking workout reps, designed to enhance user experience and simplify fitness routines
+          A website for efficiently setting up and tracking workout reps, designed to enhance user experience and simplify fitness routines
           </p>
           <div className="flex items-center gap-x-4 my-8">
             <a
