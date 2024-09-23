@@ -30,7 +30,7 @@ const DesktopIntro = ({ active }) => {
           I stand as a{" "}
           <span className="animate-flash text-white opacity-90">dedicated</span>{" "}
           <span className="animate-flashTwo text-white opacity-90">and dynamic</span>{" "}
-          <span className="animate-flash text-white opacity-90">backend</span>{" "}
+          <span className="animate-flash text-white opacity-90">fullstack</span>{" "}
           <span className="animate-flashTwo text-white opacity-90">developer</span>, distinguished by an{" "}
           <span className="animate-flash text-white opacity-90">insatiable thirst</span>{" "}
           for{" "}
