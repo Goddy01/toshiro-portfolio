@@ -9,7 +9,7 @@ const Intro = () => {
       <div
         style={{
           backgroundImage: `url(${avi})`,
-          backgroundPosition: 'center',
+          backgroundPosition: 'center bottom 15vh',
           backgroundSize: 'cover'
         }}
         className="h-28 w-28 rounded-full"
