@@ -32,7 +32,7 @@ const DesktopHomeRight = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
             >
-              <FaCodeBranch /> <span>Frontend Codebase</span>
+              <FaCodeBranch /> <span>Frontend</span>
             </a>
             <a
               href="https://github.com/Goddy01/Gorah-Backend"
@@ -40,7 +40,7 @@ const DesktopHomeRight = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
             >
-              <FaCodeBranch /> <span>Backend Codebase</span>
+              <FaCodeBranch /> <span>Backend</span>
             </a>
           </div>
         </div>
