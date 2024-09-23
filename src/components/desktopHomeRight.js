@@ -26,14 +26,22 @@ const DesktopHomeRight = () => {
             >
               <FaEye /> <span>Live</span>
             </a>
-            {/* <a
-              href=""
+            <a
+              href="https://github.com/Goddy01/Refnet"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
             >
-              <FaCodeBranch /> <span>Code</span>
-            </a> */}
+              <FaCodeBranch /> <span>Frontend Codebase</span>
+            </a>
+            <a
+              href="https://github.com/Goddy01/Gorah-Backend"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaCodeBranch /> <span>Backend Codebase</span>
+            </a>
           </div>
         </div>
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
@@ -55,6 +63,62 @@ const DesktopHomeRight = () => {
             </a>
             <a
               href="https://github.com/Goddy01/crowdsourcing-platform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaCodeBranch /> <span>Code</span>
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">NASA APOD</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            REACT + NASA APOD API Integration
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
+          A web platform that showcases NASA's Astronomy Picture of the Day (APOD). The site features stunning daily images and insights from space, accompanied by detailed descriptions provided by NASA.
+          </p>
+          <div className="flex items-center gap-x-4 my-8">
+            <a
+              
+              href="https://best-nasa-apod.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-start gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaEye /> <span>Live</span>
+            </a>
+            <a
+              href="https://github.com/Goddy01/React-NASA-APOD"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaCodeBranch /> <span>Code</span>
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">Bulk Mode</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            REACT
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
+          Developed and launched a streamlined web app for efficiently setting up and tracking workout reps, designed to enhance user experience and simplify fitness routines
+          </p>
+          <div className="flex items-center gap-x-4 my-8">
+            <a
+              
+              href="https://bulkmode.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-start gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaEye /> <span>Live</span>
+            </a>
+            <a
+              href="https://github.com/Goddy01/Bulk-Mode"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
