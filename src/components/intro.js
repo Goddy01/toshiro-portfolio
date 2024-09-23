@@ -12,13 +12,13 @@ const Intro = () => {
           backgroundPosition: 'center bottom',
           backgroundSize: 'cover'
         }}
-        className="h-[10rem] w-[10rem] rounded-full"
+        className="h-[8rem] w-[8rem] rounded-full"
       ></div>
         <h1 className="px-4 pt-4 text-2xl font-semibold">
           Hello, I&apos;m Godwin Adigun.
         </h1>
       </div>
-      <p className="text-sm leading-loose text-dark-grey">
+      <p className="text-sm leading-loose text-dark-grey break-all">
         I am a{" "}
         <span className="animate-flash text-white opacity-90">versatile</span>{" "}
         <span className="animate-flashTwo text-white opacity-90">and innovative</span>{" "}
