@@ -37,7 +37,7 @@ const DesktopResumeContainer = () => {
         <p className="mr-2.5 font-[Andika] capitalize">Frontend Development</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
-      <p>HTML, CSS, Bootstrap, JavaScript, jQuery, and AJAX</p>
+      <p>HTML, CSS, Bootstrap, JavaScript, jQuery, AJAX, and React</p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">Backend Development</p>
         <span className="h-px grow bg-[#77777859]"></span>

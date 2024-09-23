@@ -24,7 +24,7 @@ const DesktopHomeRight = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-start gap-x-1 text-xs text-light-grey hover:text-white"
             >
-              <FaEye /> <span> </span>
+              <FaEye /> <span>Live</span>
             </a>
             {/* <a
               href=""
