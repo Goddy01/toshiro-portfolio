@@ -26,8 +26,8 @@ const DesktopIntro = ({ active }) => {
           Hello, I&apos;m <br />
           Godwin Adigun.
         </h1>
-        <p className="text-sm leading-loose text-dark-grey">
-              I stand as a{" "}
+        <p className="text-sm leading-loose text-dark-grey break">
+              I am a{" "}
           <span className="animate-flash text-white opacity-90">versatile</span>{" "}
           <span className="animate-flashTwo text-white opacity-90">and innovative</span>{" "}
           <span className="animate-flash text-white opacity-90">fullstack</span>{" "}

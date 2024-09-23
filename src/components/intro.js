@@ -19,7 +19,7 @@ const Intro = () => {
         </h1>
       </div>
       <p className="text-sm leading-loose text-dark-grey">
-        I stand as a{" "}
+        I am a{" "}
         <span className="animate-flash text-white opacity-90">versatile</span>{" "}
         <span className="animate-flashTwo text-white opacity-90">and innovative</span>{" "}
         <span className="animate-flash text-white opacity-90">fullstack</span>{" "}
