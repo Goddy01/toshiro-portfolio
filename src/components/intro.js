@@ -1,7 +1,7 @@
 import React from "react";
 import {BsFillCaretRightFill} from "react-icons/bs";
 import {Link} from "gatsby";
-import avi from "../images/toshiro-avi.jpeg";
+import avi from "../images/toshiro-new-avi.jpeg";
 const Intro = () => {
   return (
     <div className="flex flex-col justify-center">
