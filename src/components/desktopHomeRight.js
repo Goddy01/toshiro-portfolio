@@ -14,7 +14,7 @@ const DesktopHomeRight = () => {
             REACT +  DJANGO + DJANGO CHANNELS + WEBSOCKET + REDIS + RABBITMQ + CELERY + GIT + POSTGRESQL + OAUTH + REST API
           </p>
           <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
-          Developed and launched an innovative job referral platform designed to bridge the gap between professionals and job seekers, significantly enhancing employment opportunities in the process
+          Developed an innovative job referral platform designed to bridge the gap between professionals and job seekers, significantly enhancing employment opportunities in the process
           </p>
           <div className="flex items-center gap-x-4 my-8">
             <a
