@@ -42,9 +42,14 @@ const DesktopResumeContainer = () => {
         <p className="mr-2.5 font-[Andika] capitalize">Backend Development</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
-      <p>Python, Django, Django Channels, Django Rest Framework, and Websocket</p>
+      <p>PHP, Python, Django, Django Channels, Django Rest Framework, and Websocket</p>
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">Devops & Containerization</p>
+        <span className="h-px grow bg-[#77777859]"></span>
+      </h3>
+      <p>SonaQube, SonarCloud, Pytest, and Coverage.py</p>
+      <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
+        <p className="mr-2.5 font-[Andika] capitalize">Software Quality Testing Tools</p>
         <span className="h-px grow bg-[#77777859]"></span>
       </h3>
       <p>
