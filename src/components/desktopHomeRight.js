@@ -19,14 +19,14 @@ const DesktopHomeRight = () => {
           <div className="flex items-center gap-x-4 my-8">
             <a
               
-              href="https://refnet.onrender.com"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-start gap-x-1 text-xs text-light-grey hover:text-white"
             >
-              <FaEye /> <span>Live</span>
+              <FaEye /> <span>Source Code</span>
             </a>
-            <a
+            {/* <a
               href="https://github.com/Goddy01/Refnet"
               target="_blank"
               rel="noopener noreferrer"
@@ -41,7 +41,7 @@ const DesktopHomeRight = () => {
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
             >
               <FaCodeBranch /> <span>Backend</span>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
