@@ -16,7 +16,7 @@ const DesktopHomeRight = () => {
           <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
           Developed secure smart contracts in Rust using Anchor to manage voting logic and ensure data integrity.
           </p>
-          <div className="flex items-center gap-x-4 my-8">
+          {/* <div className="flex items-center gap-x-4 my-8">
             <a
               
               href=""
@@ -26,7 +26,7 @@ const DesktopHomeRight = () => {
             >
               <FaEye /> <span>Source Code</span>
             </a>
-            {/* <a
+            <a
               href="https://github.com/Goddy01/Refnet"
               target="_blank"
               rel="noopener noreferrer"
@@ -41,8 +41,8 @@ const DesktopHomeRight = () => {
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
             >
               <FaCodeBranch /> <span>Backend</span>
-            </a> */}
-          </div>
+            </a>
+          </div> */}
         </div>
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">Refnet</h3>
