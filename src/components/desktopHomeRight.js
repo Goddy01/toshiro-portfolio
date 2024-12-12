@@ -9,6 +9,98 @@ const DesktopHomeRight = () => {
       </h2>
       <div className="darken flex flex-col gap-y-8 md:gap-y-3">
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">Swap Program</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            RUST + ANCHOR + TYPESCRIPT + SOLANA
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
+          Developed a token swap platform with smart contract logic for peer-to-peer cryptocurrency exchanges, ensuring secure validation and execution of token transactions. Engineered a blockchain vault system with robust security protocols to manage token offers and prevent unauthorized transfers.
+          </p>
+          <div className="flex items-center gap-x-4 my-8">
+            <a
+              
+              href="https://github.com/Goddy01/swap-app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-start gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaEye /> <span>Source Code</span>
+            </a>
+            <a
+              href="https://explorer.solana.com/address/35B6fNAgPfqeW9d9qANsQrECSYFDxoobTo3CTrZJxAvJ?cluster=devnet"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaCodeBranch /> <span>View on Solana Explorer</span>
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">SPL(Solana Program Library) Token</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            RUST + ANCHOR + TYPESCRIPT + SOLANA + METAPLEX + IPFS FILE MANAGEMENT SYSTEM
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
+          Developed an SPL token with metadata on the Solana blockchain, facilitating seamless transactions for over 65,000 users and enabling an ATA transfer feature for enhanced functionality.
+          </p>
+          <div className="flex items-center gap-x-4 my-8">
+            <a
+              
+              href="https://github.com/Goddy01/LockdafuckIn"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-start gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaEye /> <span>Source Code</span>
+            </a>
+            <a
+              href="https://explorer.solana.com/address/Hx8eZQjrXiC6gpSR6h1ESttAsp5hkNQ5fwtyyeVEUn6k/metadata?cluster=devnet"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaCodeBranch /> <span>View Token on Solana Explorer</span>
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">NFT Collection:</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+          TYPESCRIPT + SOLANA + METAPLEX + IPFS FILE MANAGEMENT SYSTEM
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
+          Developed and managed a Solana-based NFT collection using TypeScript and Metaplex. Programmatically minted NFTs with metadata, added them to the collection, and verified their authenticity and association.
+          </p>
+          <div className="flex items-center gap-x-4 my-8">
+            <a
+              
+              href="https://github.com/Goddy01/solana-nft"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-start gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaEye /> <span>Source Code</span>
+            </a>
+            <a
+              href="https://explorer.solana.com/address/CXbWAgFihjtxLHgRPwV7142f7wg6bzFaqkPCB3rTcM7t?cluster=devnet"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaCodeBranch /> <span>View NFT Collection on Solana Explorer</span>
+            </a>
+            <a
+              href="https://explorer.solana.com/address/EhVJLzqXnyypn95ZFL8QKVFSntRehk85JAQhcgAG9fwS/metadata?cluster=devnet"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaCodeBranch /> <span>View NFT Asset on Solana Explorer</span>
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">Decentralized Voting App</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
             RUST + TYPESCRIPT + ANCHOR + SOLANA + SOLANA BLINKS + SOLANA ACTIONS + DIALECT BLINKS
