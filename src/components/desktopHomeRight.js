@@ -24,7 +24,7 @@ const DesktopHomeRight = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-start gap-x-1 text-xs text-light-grey hover:text-white"
             >
-              <FaEye /> <span>Source Code</span>
+              <FaCodeBranch /> <span>Source Code</span>
             </a>
             <a
               href="https://explorer.solana.com/address/35B6fNAgPfqeW9d9qANsQrECSYFDxoobTo3CTrZJxAvJ?cluster=devnet"
@@ -32,7 +32,7 @@ const DesktopHomeRight = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
             >
-              <FaCodeBranch /> <span>View on Solana Explorer</span>
+              <FaEye /> <span>View on Solana Explorer</span>
             </a>
           </div>
         </div>
@@ -52,7 +52,7 @@ const DesktopHomeRight = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-start gap-x-1 text-xs text-light-grey hover:text-white"
             >
-              <FaEye /> <span>Source Code</span>
+              <FaCodeBranch /> <span>Source Code</span>
             </a>
             <a
               href="https://explorer.solana.com/address/Hx8eZQjrXiC6gpSR6h1ESttAsp5hkNQ5fwtyyeVEUn6k/metadata?cluster=devnet"
@@ -60,7 +60,7 @@ const DesktopHomeRight = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
             >
-              <FaCodeBranch /> <span>View Token on Solana Explorer</span>
+              <FaEye /> <span>View Token on Solana Explorer</span>
             </a>
           </div>
         </div>
@@ -80,7 +80,7 @@ const DesktopHomeRight = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-start gap-x-1 text-xs text-light-grey hover:text-white"
             >
-              <FaEye /> <span>Source Code</span>
+              <FaCodeBranch /> <span>Source Code</span>
             </a>
             <a
               href="https://explorer.solana.com/address/CXbWAgFihjtxLHgRPwV7142f7wg6bzFaqkPCB3rTcM7t?cluster=devnet"
@@ -88,7 +88,7 @@ const DesktopHomeRight = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
             >
-              <FaCodeBranch /> <span>View NFT Collection on Solana Explorer</span>
+              <FaEye /> <span>View NFT Collection on Solana Explorer</span>
             </a>
             <a
               href="https://explorer.solana.com/address/EhVJLzqXnyypn95ZFL8QKVFSntRehk85JAQhcgAG9fwS/metadata?cluster=devnet"
@@ -96,7 +96,7 @@ const DesktopHomeRight = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
             >
-              <FaCodeBranch /> <span>View NFT Asset on Solana Explorer</span>
+              <FaEye /> <span>View NFT Asset on Solana Explorer</span>
             </a>
           </div>
         </div>
