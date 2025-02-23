@@ -38,6 +38,25 @@ const DesktopHomeRight = () => {
           </div>
         </div>
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">Medit (AI-powered Medical Editor )</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            REACT + MODEJS + TYPESCRIPT + POSTGRESQL + GPT-4 + GRAMMARLY + MED-PALM + BIOGPT
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
+          AI-powered editing and analysis for medical articles and research papers
+          </p>
+          <div className="flex items-center gap-x-4 my-8">
+            <a
+              href="https://meditai.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaEye /> <span>Website</span>
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">Swap Program</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
             RUST + ANCHOR + TYPESCRIPT + SOLANA
