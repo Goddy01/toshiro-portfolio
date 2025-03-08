@@ -62,7 +62,7 @@ const NavBar = () => {
               </li>
               <li>
                 <a
-                  href="https://twitter.com/toshix2ro"
+                  href="https://x.com/toshirothe3rd"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="My profile on Twitter"

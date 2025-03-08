@@ -13,7 +13,7 @@ const Socials = () => {
           <FaGithub color="white" />
         </a>
         <a
-          href="https://twitter.com/toshix2ro"
+          href="https://x.com/toshirothe3rd"
           target="_blank"
           rel="noopener noreferrer"
         >

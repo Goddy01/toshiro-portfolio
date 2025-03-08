@@ -93,7 +93,7 @@ const DesktopIntro = ({ active }) => {
               <BsArrowUpRight className="text-sm opacity-70" />
             </a>
             <a
-              href="https://twitter.com/toshix2ro"
+              href="https://x.com/toshirothe3rd"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-x-2"
