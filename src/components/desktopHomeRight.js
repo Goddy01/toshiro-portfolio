@@ -25,7 +25,7 @@ const DesktopHomeRight = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
             >
-              <FaEye /> <span>Website 1</span>
+              <FaEye /> <span>Website</span>
             </a>
             <a
               href="https://f1meme-frontend.vercel.app/"
