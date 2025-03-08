@@ -25,10 +25,10 @@ const DesktopHomeRight = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
             >
-              <FaEye /> <span>Website</span>
+              <FaEye /> <span>Website 1</span>
             </a>
             <a
-              href="https://boxbox-token-vesting.netlify.app/"
+              href="https://f1meme-frontend.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
