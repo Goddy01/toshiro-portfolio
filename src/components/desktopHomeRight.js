@@ -9,9 +9,51 @@ const DesktopHomeRight = () => {
       </h2>
       <div className="darken flex flex-col gap-y-8 md:gap-y-3">
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">F1 Meme</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            NODEJS + TYPESCRIPT + REACT + WEB3.JS
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
+          Designed and developed a fully functional meme-based web platform (f1meme.com) from scratch for a client, 
+          delivering responsive UI, dynamic content management, and optimized performance while handling all frontend, 
+          backend, and deployment tasks independently.
+          </p>
+          <div className="flex items-center gap-x-4 my-8">
+            <a
+              href="https://www.f1meme.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaEye /> <span>Website</span>
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">F1 Meme</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            NODEJS + TYPESCRIPT + REACT + WEB3.JS
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
+          Designed and developed a fully functional meme-based web platform (f1meme.com) from scratch for a client, 
+          delivering responsive UI, dynamic content management, and optimized performance while handling all frontend, 
+          backend, and deployment tasks independently.
+          </p>
+          <div className="flex items-center gap-x-4 my-8">
+            <a
+              href="https://www.f1meme.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaEye /> <span>Website</span>
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">F1 Meme Membership-Based Token Vesting</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
-            RUST + ANCHOR + NODEJS + TYPESCRIPT + REACT + SOLANA + SPL TOKEN + METAPLEX + IPFS
+            RUST + ANCHOR + NODEJS + TYPESCRIPT + SOLANA + SPL TOKEN + METAPLEX + IPFS
           </p>
           <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
           Designed and implemented a Rust-based Solana smart contract and a website for the F1 Meme (BOXBOX)
