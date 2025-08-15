@@ -38,7 +38,7 @@ const DesktopResumeContainer = () => {
           </a>
         </span>
       </div>
-      <b className="my-[6px] text-cfcfcf">Fullstack Developer & Web3 Security Researcher</b>
+      <b className="my-[6px] text-cfcfcf">Fullstack Developer, Solana Developer & Web3 Security Researcher</b>
       
       <h3 className="my-4 flex items-center font-semibold text-e2e2e2">
         <p className="mr-2.5 font-[Andika] capitalize">Summary</p>
