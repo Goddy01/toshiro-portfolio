@@ -19,13 +19,22 @@ const DesktopResumeContainer = () => {
             <span className="hidden md:flex">LinkedIn</span>
           </a>
           <a
-            href="https://drive.google.com/file/d/1z3lMuqpr0JybI_jH0THREdoWRSxbjNyS/view?usp=sharing"
+            href="https://drive.google.com/file/d/1DMU8fhb2PJkece5gR0bWvGAoMMr7Zyst/view?usp=drive_link"
             target="_blank"
             download
             className="flex items-center gap-x-1"
           >
             <FaDownload />
-            <span className="hidden md:flex">Download</span>
+            <span className="hidden md:flex">Download Web2 Resume</span>
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1FrmMHmiI-SUNF2rzPieXzg4OE9w4Hwn4/view?usp=drive_link"
+            target="_blank"
+            download
+            className="flex items-center gap-x-1"
+          >
+            <FaDownload />
+            <span className="hidden md:flex">Download Web3 Resume</span>
           </a>
         </span>
       </div>
