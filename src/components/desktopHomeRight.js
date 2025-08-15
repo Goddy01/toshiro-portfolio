@@ -9,7 +9,26 @@ const DesktopHomeRight = () => {
       </h2>
       <div className="darken flex flex-col gap-y-8 md:gap-y-3">
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
-          <h3 className="text-[1.3rem] font-semibold text-white">Nestmate</h3>
+          <h3 className="text-[1.3rem] font-semibold text-white">Tencoin - White-Label Crypto Wallet Platform</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            NODEJS + TYPESCRIPT + REACT + NESTJS + PRISMA + POSTGRESQL + GIT + PAYSTACK PAYMENT GATEWAY API + GOOGLE OAUTH
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
+          Developed a secure, scalable backend with Node.js/NestJS and PostgreSQL, supporting multi-currency wallets (BTC, ETH, USDT, BUSD, NGN).
+          <br />
+          Built KYC verification integrated with national ID databases and tiered compliance for AML/CFT standards.
+          <br />
+          Implemented services for buy/sell, deposits, withdrawals, trading, with real-time pricing and multi-fiat payment channels.
+          <br />
+          Integrated Bitcoin, Ethereum, Binance Smart Chain, and Tron for seamless on-chain transactions.
+          <br />
+          Added advanced security (2FA, device fingerprinting, encryption, audit logs) for high-trust operations.
+          <br />
+          Deployed using Docker, Kubernetes, and GitHub Actions CI/CD on AWS/Azure for high availability.
+          </p>
+        </div>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">Nestmate - Real Estate Rental & Booking Platform</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
             NODEJS + TYPESCRIPT + REACT + NESTJS + PRISMA + POSTGRESQL + GIT + PAYSTACK PAYMENT GATEWAY API + GOOGLE OAUTH
           </p>
@@ -28,16 +47,6 @@ const DesktopHomeRight = () => {
           <br />
           Deployed the application using Docker and Kubernetes for scalable and efficient hosting.
           </p>
-          <div className="flex items-center gap-x-4 my-8">
-            <a
-              href="https://www.f1meme.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
-            >
-              <FaEye /> <span>Website</span>
-            </a>
-          </div>
         </div>
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">F1 Meme</h3>
