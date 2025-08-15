@@ -4,11 +4,26 @@ import {FaEye, FaCodeBranch, FaCube} from "react-icons/fa";
 const DesktopHomeRight = () => {
   return (
     <>
-      <h2 className="my-4 text-xs font-bold uppercase text-dark-grey">
-        Projects
-      </h2>
-      <div className="darken flex flex-col gap-y-8 md:gap-y-3">
-        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+             <h2 className="my-4 text-xs font-bold uppercase text-dark-grey">
+         Projects
+       </h2>
+       <div className="darken flex flex-col gap-y-8 md:gap-y-3">
+         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+           <h3 className="text-[1.3rem] font-semibold text-white">Discord Bot - Real-time Solana Token Tracker</h3>
+           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+             NODEJS + TYPESCRIPT + DISCORD.JS + SOLANA + WEBHOOK
+           </p>
+           <p className="my-3 min-h-[5rem] text-xs leading-relaxed text-dark-grey md:h-auto md:min-h-0">
+             • Developed a Discord bot that monitors new coin deployments via believe.app in real-time
+             <br />
+             • Implemented ultra-fast webhook delivery system that fires Discord notifications under 2 seconds of token creation
+             <br />
+             • Tracks and reports comprehensive token data including Contract Address (CA), Token ticker, Token name, Description, and Creator's X username & ID
+             <br />
+             • Built with Solana blockchain integration for seamless real-time monitoring and alerting capabilities
+           </p>
+         </div>
+         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">Tencoin - White-Label Crypto Wallet Platform</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
             NODEJS + TYPESCRIPT + REACT + NESTJS + PRISMA + POSTGRESQL + GIT + PAYSTACK PAYMENT GATEWAY API + GOOGLE OAUTH
