@@ -15,16 +15,18 @@ const DesktopHomeRight = () => {
           </p>
           <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
           Built and maintained backend modules for tenants, agents, and admins using Node.js, TypeScript, and NestJS.
-
-Designed RESTful APIs for authentication, property listings, bookings, and agent-user communication.
-
-Integrated Prisma ORM with PostgreSQL for optimized data modeling and queries.
-
-Implemented role-based access control (RBAC) to securely isolate tenant, agent, and admin operations.
-
-Enhanced performance via logic refactoring and redundant query reduction, ensuring scalability.
-
-Wrote unit and integration tests to maintain reliability and prevent regressions.
+          <br />
+          Designed RESTful APIs for authentication, property listings, bookings, and agent-user communication.
+          <br />
+          Integrated Prisma ORM with PostgreSQL for optimized data modeling and queries.
+          <br />
+          Implemented role-based access control (RBAC) to securely isolate tenant, agent, and admin operations.
+          <br />
+          Enhanced performance via logic refactoring and redundant query reduction, ensuring scalability.
+          <br />
+          Wrote unit and integration tests to maintain reliability and prevent regressions.
+          <br />
+          Deployed the application using Docker and Kubernetes for scalable and efficient hosting.
           </p>
           <div className="flex items-center gap-x-4 my-8">
             <a
