@@ -74,10 +74,12 @@ const DesktopHomeRight = () => {
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
             RUST + ANCHOR + NODEJS + TYPESCRIPT + SOLANA + SPL TOKEN + METAPLEX + IPFS
           </p>
-          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
-          Designed and implemented a Rust-based Solana smart contract and a website for the F1 Meme (BOXBOX)
-          SPL token, enabling secure token locking and controlled distribution for Formula 1 fan
-          memberships.
+          <p className="my-3 min-h-[5rem] text-xs leading-relaxed text-dark-grey md:h-auto md:min-h-0">
+            • Designed and implemented a Rust-based Solana smart contract and a website for the F1 Meme (BOXBOX) SPL token, enabling secure token locking and controlled distribution for Formula 1 fan memberships
+            <br />
+            • Developed the complete SPL token infrastructure for Boxbox, including token creation, metadata, and distribution mechanisms
+            <br />
+            • Conducted comprehensive smart contract security audit to identify and mitigate potential vulnerabilities, ensuring robust security for user funds and token operations
           </p>
           <div className="flex items-center gap-x-4 my-8">
             <a
