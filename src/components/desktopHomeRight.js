@@ -11,7 +11,7 @@ const DesktopHomeRight = () => {
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">Nestmate</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
-            NODEJS + TYPESCRIPT + REACT + WEB3.JS
+            NODEJS + TYPESCRIPT + REACT + NESTJS + PRISMA + POSTGRESQL + GIT + PAYSTACK PAYMENT GATEWAY API + GOOGLE OAUTH
           </p>
           <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
           Built and maintained backend modules for tenants, agents, and admins using Node.js, TypeScript, and NestJS.
