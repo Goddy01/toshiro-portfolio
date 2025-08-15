@@ -9,14 +9,22 @@ const DesktopHomeRight = () => {
       </h2>
       <div className="darken flex flex-col gap-y-8 md:gap-y-3">
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
-          <h3 className="text-[1.3rem] font-semibold text-white">F1 Meme</h3>
+          <h3 className="text-[1.3rem] font-semibold text-white">Nestmate</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
             NODEJS + TYPESCRIPT + REACT + WEB3.JS
           </p>
           <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
-          Designed and developed a fully functional meme-based web platform (f1meme.com) from scratch for a client, 
-          delivering responsive UI, dynamic content management, and optimized performance while handling all frontend, 
-          backend, and deployment tasks independently.
+          Built and maintained backend modules for tenants, agents, and admins using Node.js, TypeScript, and NestJS.
+
+Designed RESTful APIs for authentication, property listings, bookings, and agent-user communication.
+
+Integrated Prisma ORM with PostgreSQL for optimized data modeling and queries.
+
+Implemented role-based access control (RBAC) to securely isolate tenant, agent, and admin operations.
+
+Enhanced performance via logic refactoring and redundant query reduction, ensuring scalability.
+
+Wrote unit and integration tests to maintain reliability and prevent regressions.
           </p>
           <div className="flex items-center gap-x-4 my-8">
             <a
