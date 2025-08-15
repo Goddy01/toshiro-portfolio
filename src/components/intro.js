@@ -24,7 +24,9 @@ const Intro = () => {
         <span className="animate-flashTwo text-white opacity-90">and innovative</span>{" "}
         <span className="animate-flash text-white opacity-90">fullstack</span>{" "}
         <span className="animate-flashTwo text-white opacity-90">developer</span>{" "}
-        <span className="animate-flash text-white opacity-90">and blockchain developer</span>, distinguished by an{" "}
+        <span className="animate-flash text-white opacity-90">and blockchain developer</span>,{" "}
+        <span className="animate-flashTwo text-white opacity-90">web3 security researcher</span>, and{" "}
+        <span className="animate-flash text-white opacity-90">smart contract auditor</span>, distinguished by an{" "}
         <span className="animate-flash text-white opacity-90">insatiable curiosity</span>{" "}
         for{" "}
         <span className="animate-flashTwo text-white opacity-90">cutting-edge technologies</span> and a fervent commitment to crafting{" "}
