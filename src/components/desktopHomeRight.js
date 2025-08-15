@@ -13,18 +13,18 @@ const DesktopHomeRight = () => {
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
             NODEJS + TYPESCRIPT + REACT + NESTJS + PRISMA + POSTGRESQL + GIT + PAYSTACK PAYMENT GATEWAY API + GOOGLE OAUTH
           </p>
-          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
-          Developed a secure, scalable backend with Node.js/NestJS and PostgreSQL, supporting multi-currency wallets (BTC, ETH, USDT, BUSD, NGN).
-          <br />
-          Built KYC verification integrated with national ID databases and tiered compliance for AML/CFT standards.
-          <br />
-          Implemented services for buy/sell, deposits, withdrawals, trading, with real-time pricing and multi-fiat payment channels.
-          <br />
-          Integrated Bitcoin, Ethereum, Binance Smart Chain, and Tron for seamless on-chain transactions.
-          <br />
-          Added advanced security (2FA, device fingerprinting, encryption, audit logs) for high-trust operations.
-          <br />
-          Deployed using Docker, Kubernetes, and GitHub Actions CI/CD on AWS/Azure for high availability.
+          <p className="my-3 min-h-[5rem] text-xs leading-relaxed text-dark-grey md:h-auto md:min-h-0">
+            • Developed a secure, scalable backend with Node.js/NestJS and PostgreSQL, supporting multi-currency wallets (BTC, ETH, USDT, BUSD, NGN)
+            <br />
+            • Built KYC verification integrated with national ID databases and tiered compliance for AML/CFT standards
+            <br />
+            • Implemented services for buy/sell, deposits, withdrawals, trading, with real-time pricing and multi-fiat payment channels
+            <br />
+            • Integrated Bitcoin, Ethereum, Binance Smart Chain, and Tron for seamless on-chain transactions
+            <br />
+            • Added advanced security (2FA, device fingerprinting, encryption, audit logs) for high-trust operations
+            <br />
+            • Deployed using Docker, Kubernetes, and GitHub Actions CI/CD on AWS/Azure for high availability
           </p>
         </div>
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
@@ -32,20 +32,20 @@ const DesktopHomeRight = () => {
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
             NODEJS + TYPESCRIPT + REACT + NESTJS + PRISMA + POSTGRESQL + GIT + PAYSTACK PAYMENT GATEWAY API + GOOGLE OAUTH
           </p>
-          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
-          Built and maintained backend modules for tenants, agents, and admins using Node.js, TypeScript, and NestJS.
-          <br />
-          Designed RESTful APIs for authentication, property listings, bookings, and agent-user communication.
-          <br />
-          Integrated Prisma ORM with PostgreSQL for optimized data modeling and queries.
-          <br />
-          Implemented role-based access control (RBAC) to securely isolate tenant, agent, and admin operations.
-          <br />
-          Enhanced performance via logic refactoring and redundant query reduction, ensuring scalability.
-          <br />
-          Wrote unit and integration tests to maintain reliability and prevent regressions.
-          <br />
-          Deployed the application using Docker and Kubernetes for scalable and efficient hosting.
+          <p className="my-3 min-h-[5rem] text-xs leading-relaxed text-dark-grey md:h-auto md:min-h-0">
+            • Built and maintained backend modules for tenants, agents, and admins using Node.js, TypeScript, and NestJS
+            <br />
+            • Designed RESTful APIs for authentication, property listings, bookings, and agent-user communication
+            <br />
+            • Integrated Prisma ORM with PostgreSQL for optimized data modeling and queries
+            <br />
+            • Implemented role-based access control (RBAC) to securely isolate tenant, agent, and admin operations
+            <br />
+            • Enhanced performance via logic refactoring and redundant query reduction, ensuring scalability
+            <br />
+            • Wrote unit and integration tests to maintain reliability and prevent regressions
+            <br />
+            • Deployed the application using Docker and Kubernetes for scalable and efficient hosting
           </p>
         </div>
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
