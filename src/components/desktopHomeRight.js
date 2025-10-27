@@ -7,83 +7,8 @@ const DesktopHomeRight = () => {
              <h2 className="my-4 text-xs font-bold uppercase text-dark-grey">
          Projects
        </h2>
-       <div className="darken flex flex-col gap-y-8 md:gap-y-3">
-         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
-           <h3 className="text-[1.3rem] font-semibold text-white">Discord Bot - Real-time Solana Token Tracker</h3>
-           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
-             NODEJS + TYPESCRIPT + DISCORD.JS + SOLANA + WEBHOOK
-           </p>
-           <p className="my-3 min-h-[5rem] text-xs leading-relaxed text-dark-grey md:h-auto md:min-h-0">
-             • Developed a Discord bot that monitors new coin deployments via believe.app in real-time
-             <br />
-             • Implemented ultra-fast webhook delivery system that fires Discord notifications under 2 seconds of token creation
-             <br />
-             • Tracks and reports comprehensive token data including Contract Address (CA), Token ticker, Token name, Description, and Creator's X username & ID
-             <br />
-             • Built with Solana blockchain integration for seamless real-time monitoring and alerting capabilities
-           </p>
-         </div>
-         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
-          <h3 className="text-[1.3rem] font-semibold text-white">Tencoin - White-Label Crypto Wallet Platform</h3>
-          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
-            NODEJS + TYPESCRIPT + REACT + NESTJS + PRISMA + POSTGRESQL + GIT + PAYSTACK PAYMENT GATEWAY API + GOOGLE OAUTH
-          </p>
-          <p className="my-3 min-h-[5rem] text-xs leading-relaxed text-dark-grey md:h-auto md:min-h-0">
-            • Developed a secure, scalable backend with Node.js/NestJS and PostgreSQL, supporting multi-currency wallets (BTC, ETH, USDT, BUSD, NGN)
-            <br />
-            • Built KYC verification integrated with national ID databases and tiered compliance for AML/CFT standards
-            <br />
-            • Implemented services for buy/sell, deposits, withdrawals, trading, with real-time pricing and multi-fiat payment channels
-            <br />
-            • Integrated Bitcoin, Ethereum, Binance Smart Chain, and Tron for seamless on-chain transactions
-            <br />
-            • Added advanced security (2FA, device fingerprinting, encryption, audit logs) for high-trust operations
-            <br />
-            • Deployed using Docker, Kubernetes, and GitHub Actions CI/CD on AWS/Azure for high availability
-          </p>
-        </div>
-        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
-          <h3 className="text-[1.3rem] font-semibold text-white">Nestmate - Real Estate Rental & Booking Platform</h3>
-          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
-            NODEJS + TYPESCRIPT + REACT + NESTJS + PRISMA + POSTGRESQL + GIT + PAYSTACK PAYMENT GATEWAY API + GOOGLE OAUTH
-          </p>
-          <p className="my-3 min-h-[5rem] text-xs leading-relaxed text-dark-grey md:h-auto md:min-h-0">
-            • Built and maintained backend modules for tenants, agents, and admins using Node.js, TypeScript, and NestJS
-            <br />
-            • Designed RESTful APIs for authentication, property listings, bookings, and agent-user communication
-            <br />
-            • Integrated Prisma ORM with PostgreSQL for optimized data modeling and queries
-            <br />
-            • Implemented role-based access control (RBAC) to securely isolate tenant, agent, and admin operations
-            <br />
-            • Enhanced performance via logic refactoring and redundant query reduction, ensuring scalability
-            <br />
-            • Wrote unit and integration tests to maintain reliability and prevent regressions
-            <br />
-            • Deployed the application using Docker and Kubernetes for scalable and efficient hosting
-          </p>
-        </div>
-        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
-          <h3 className="text-[1.3rem] font-semibold text-white">F1 Meme</h3>
-          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
-            NODEJS + TYPESCRIPT + REACT + WEB3.JS
-          </p>
-          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
-          Designed and developed a fully functional meme-based web platform (f1meme.com) from scratch for a client, 
-          delivering responsive UI, dynamic content management, and optimized performance while handling all frontend, 
-          backend, and deployment tasks independently.
-          </p>
-          <div className="flex items-center gap-x-4 my-8">
-            <a
-              href="https://www.f1meme.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
-            >
-              <FaEye /> <span>Website</span>
-            </a>
-          </div>
-        </div>
+      <div className="darken flex flex-col gap-y-8 md:gap-y-3">
+        {/* Solana Projects */}
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">Boxbox.wtf - Full-Stack DeFi Platform</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
@@ -139,25 +64,6 @@ const DesktopHomeRight = () => {
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
             >
               <FaEye /> <span>Token Vesting Website</span>
-            </a>
-          </div>
-        </div>
-        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
-          <h3 className="text-[1.3rem] font-semibold text-white">Medit (AI-powered Medical Editor )</h3>
-          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
-            REACT + MODEJS + TYPESCRIPT + POSTGRESQL + GPT-4 + GRAMMARLY + MED-PALM + BIOGPT
-          </p>
-          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
-          AI-powered editing and analysis for medical articles and research papers
-          </p>
-          <div className="flex items-center gap-x-4 my-8">
-            <a
-              href="https://meditai.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
-            >
-              <FaEye /> <span>Website</span>
             </a>
           </div>
         </div>
@@ -290,6 +196,63 @@ const DesktopHomeRight = () => {
           </div> */}
         </div>
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">Discord Bot - Real-time Solana Token Tracker</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            NODEJS + TYPESCRIPT + DISCORD.JS + SOLANA + WEBHOOK
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs leading-relaxed text-dark-grey md:h-auto md:min-h-0">
+            • Developed a Discord bot that monitors new coin deployments via believe.app in real-time
+            <br />
+            • Implemented ultra-fast webhook delivery system that fires Discord notifications under 2 seconds of token creation
+            <br />
+            • Tracks and reports comprehensive token data including Contract Address (CA), Token ticker, Token name, Description, and Creator's X username & ID
+            <br />
+            • Built with Solana blockchain integration for seamless real-time monitoring and alerting capabilities
+          </p>
+        </div>
+        
+        {/* Backend Projects */}
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">Tencoin - White-Label Crypto Wallet Platform</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            NODEJS + TYPESCRIPT + REACT + NESTJS + PRISMA + POSTGRESQL + GIT + PAYSTACK PAYMENT GATEWAY API + GOOGLE OAUTH
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs leading-relaxed text-dark-grey md:h-auto md:min-h-0">
+            • Developed a secure, scalable backend with Node.js/NestJS and PostgreSQL, supporting multi-currency wallets (BTC, ETH, USDT, BUSD, NGN)
+            <br />
+            • Built KYC verification integrated with national ID databases and tiered compliance for AML/CFT standards
+            <br />
+            • Implemented services for buy/sell, deposits, withdrawals, trading, with real-time pricing and multi-fiat payment channels
+            <br />
+            • Integrated Bitcoin, Ethereum, Binance Smart Chain, and Tron for seamless on-chain transactions
+            <br />
+            • Added advanced security (2FA, device fingerprinting, encryption, audit logs) for high-trust operations
+            <br />
+            • Deployed using Docker, Kubernetes, and GitHub Actions CI/CD on AWS/Azure for high availability
+          </p>
+        </div>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">Nestmate - Real Estate Rental & Booking Platform</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            NODEJS + TYPESCRIPT + REACT + NESTJS + PRISMA + POSTGRESQL + GIT + PAYSTACK PAYMENT GATEWAY API + GOOGLE OAUTH
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs leading-relaxed text-dark-grey md:h-auto md:min-h-0">
+            • Built and maintained backend modules for tenants, agents, and admins using Node.js, TypeScript, and NestJS
+            <br />
+            • Designed RESTful APIs for authentication, property listings, bookings, and agent-user communication
+            <br />
+            • Integrated Prisma ORM with PostgreSQL for optimized data modeling and queries
+            <br />
+            • Implemented role-based access control (RBAC) to securely isolate tenant, agent, and admin operations
+            <br />
+            • Enhanced performance via logic refactoring and redundant query reduction, ensuring scalability
+            <br />
+            • Wrote unit and integration tests to maintain reliability and prevent regressions
+            <br />
+            • Deployed the application using Docker and Kubernetes for scalable and efficient hosting
+          </p>
+        </div>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">Refnet</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
             REACT +  DJANGO + DJANGO CHANNELS + WEBSOCKET + REDIS + RABBITMQ + CELERY + GIT + POSTGRESQL + OAUTH + REST API
@@ -385,6 +348,48 @@ const DesktopHomeRight = () => {
               className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
             >
               <FaCodeBranch /> <span>Code</span>
+            </a>
+          </div>
+        </div>
+        
+        {/* Other Projects */}
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">F1 Meme</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            NODEJS + TYPESCRIPT + REACT + WEB3.JS
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
+          Designed and developed a fully functional meme-based web platform (f1meme.com) from scratch for a client, 
+          delivering responsive UI, dynamic content management, and optimized performance while handling all frontend, 
+          backend, and deployment tasks independently.
+          </p>
+          <div className="flex items-center gap-x-4 my-8">
+            <a
+              href="https://www.f1meme.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaEye /> <span>Website</span>
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">Medit (AI-powered Medical Editor )</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            REACT + MODEJS + TYPESCRIPT + POSTGRESQL + GPT-4 + GRAMMARLY + MED-PALM + BIOGPT
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs font-semibold tracking-wider text-dark-grey md:h-16">
+          AI-powered editing and analysis for medical articles and research papers
+          </p>
+          <div className="flex items-center gap-x-4 my-8">
+            <a
+              href="https://meditai.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaEye /> <span>Website</span>
             </a>
           </div>
         </div>
