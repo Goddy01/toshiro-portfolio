@@ -85,6 +85,33 @@ const DesktopHomeRight = () => {
           </div>
         </div>
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">Boxbox.wtf - Full-Stack DeFi Platform</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            RUST + ANCHOR + SOLANA + NODEJS + TYPESCRIPT + REACT + WEB3.JS + REST API + DATABASE
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs leading-relaxed text-dark-grey md:h-auto md:min-h-0">
+            • Architected and developed a comprehensive DeFi platform from the ground up, encompassing smart contracts, backend infrastructure, and frontend interface
+            <br />
+            • Designed and deployed Rust-based Solana smart contracts using Anchor framework, implementing secure token management and DeFi protocols
+            <br />
+            • Built scalable Node.js backend with RESTful APIs, database integration, and blockchain interaction layers
+            <br />
+            • Crafted modern React frontend with TypeScript, Web3.js integration, and responsive UI for seamless blockchain interactions
+            <br />
+            • Managed end-to-end development lifecycle including contract security audits, deployment automation, and production deployment
+          </p>
+          <div className="flex items-center gap-x-4 my-8">
+            <a
+              href="https://www.boxbox.wtf/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaEye /> <span>Website</span>
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">F1 Meme Membership-Based Token Vesting</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
             RUST + ANCHOR + NODEJS + TYPESCRIPT + SOLANA + SPL TOKEN + METAPLEX + IPFS
