@@ -10,20 +10,20 @@ const DesktopHomeRight = () => {
       <div className="darken flex flex-col gap-y-8 md:gap-y-3">
         {/* Solana Projects */}
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
-          <h3 className="text-[1.3rem] font-semibold text-white">Boxbox.wtf - Full-Stack DeFi Platform</h3>
+          <h3 className="text-[1.3rem] font-semibold text-white">Boxbox.wtf - F1 Prediction Market Platform</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
             RUST + ANCHOR + SOLANA + NODEJS + TYPESCRIPT + REACT + WEB3.JS + REST API + DATABASE
           </p>
           <p className="my-3 min-h-[5rem] text-xs leading-relaxed text-dark-grey md:h-auto md:min-h-0">
-            • Architected and developed a comprehensive DeFi platform from the ground up, encompassing smart contracts, backend infrastructure, and frontend interface
+            • Architected and developed a full-stack F1 prediction market platform from the ground up, enabling users to connect wallets and make predictions on upcoming Formula 1 races
             <br />
-            • Designed and deployed Rust-based Solana smart contracts using Anchor framework, implementing secure token management and DeFi protocols
+            • Designed and deployed Rust-based Solana smart contracts using Anchor framework, implementing secure prediction logic for race outcomes and driver podium results
             <br />
-            • Built scalable Node.js backend with RESTful APIs, database integration, and blockchain interaction layers
+            • Built scalable Node.js backend with RESTful APIs for managing user predictions, race data, and result settlement
             <br />
-            • Crafted modern React frontend with TypeScript, Web3.js integration, and responsive UI for seamless blockchain interactions
+            • Crafted modern React frontend with TypeScript and Web3.js integration, providing seamless wallet connectivity for making F1 predictions
             <br />
-            • Managed end-to-end development lifecycle including contract security audits, deployment automation, and production deployment
+            • Implemented prediction market mechanics allowing users to bet on race outcomes and podium finishers with on-chain settlement
           </p>
           <div className="flex items-center gap-x-4 my-8">
             <a
