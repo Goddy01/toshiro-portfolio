@@ -8,6 +8,33 @@ const DesktopHomeRight = () => {
          Projects
        </h2>
       <div className="darken flex flex-col gap-y-8 md:gap-y-3">
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">Sideline Sports & Entertainment</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            REACT + EXPRESS + TYPESCRIPT + TAILWIND CSS + POSTGRESQL + GIT + CLOUDINARY
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs leading-relaxed text-dark-grey md:h-auto md:min-h-0">
+            • Solely developed the fullstack for Sideline Sports & Entertainment — design, frontend, backend, and database — delivering a complete web presence for the brand
+            <br />
+            • Designed and built the frontend with modern UI/UX, ensuring a responsive and accessible experience across devices
+            <br />
+            • Implemented the backend APIs and server logic to power dynamic content, forms, and business workflows
+            <br />
+            • Set up and integrated the database layer for persistent data storage and efficient retrieval
+            <br />
+            • Deployed and configured the full stack (frontend, backend, and database) for production at sideline-se.com
+          </p>
+          <div className="flex items-center gap-x-4 my-8">
+            <a
+              href="https://sideline-se.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaEye /> <span>Website</span>
+            </a>
+          </div>
+        </div>
         {/* Solana Projects */}
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">Boxbox.wtf - F1 Prediction Market Platform</h3>
