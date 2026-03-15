@@ -95,6 +95,33 @@ const DesktopHomeRight = () => {
           </div>
         </div>
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">Agent Colony - Agentic Wallets for AI Agents on Solana</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            TYPESCRIPT + SOLANA + ORCA WHIRLPOOLS + REACT + ENCRYPTED KEY VAULT + MEMO PROGRAM + SPL TOKEN
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs leading-relaxed text-dark-grey md:h-auto md:min-h-0">
+            • Built a fully autonomous multi-agent economy on Solana devnet for the DeFi Developer Challenge (Superteam Nigeria) — six AI agents each hold their own on-chain wallet and execute real transactions without human intervention
+            <br />
+            • Implemented key isolation with an encrypted KeyVault (AES-256-GCM + Argon2id); private keys exist in one place only — agents sign by ID via KeyVault.sign(SigningRequest), never exposing keys
+            <br />
+            • Integrated real protocol interaction: traders swap SOL to USDC via Orca Whirlpools on devnet; every agent decision is logged on-chain via Solana Memo for a tamper-evident audit trail
+            <br />
+            • Designed colony-scale architecture (vault, funder, pool, traders) with simulate-before-send, per-agent rate limiting, and optional dry-run; scalable at runtime with dashboard-driven trader provisioning
+            <br />
+            • Delivered live React dashboard at localhost:3555 with real devnet balances, P&L, trading history, and Solscan links for on-chain verification; documented in DEEP_DIVE.md and SKILLS.md
+          </p>
+          <div className="flex items-center gap-x-4 my-8">
+            <a
+              href="https://github.com/Goddy01/Agent-Economy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-1 text-xs text-light-grey hover:text-white"
+            >
+              <FaCodeBranch /> <span>Source Code</span>
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">Swap Program</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
             RUST + ANCHOR + TYPESCRIPT + SOLANA
