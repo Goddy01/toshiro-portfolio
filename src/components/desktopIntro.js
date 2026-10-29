@@ -8,10 +8,10 @@ const routes = [
     to: "",
     text: "work",
   },
-  {
-    to: "resume",
-    text: "resume",
-  },
+  // {
+  //   to: "resume",
+  //   text: "resume",
+  // },
   // {
   //   to: "blogs",
   //   text: "articles",

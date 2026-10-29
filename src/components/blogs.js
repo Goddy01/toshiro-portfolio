@@ -18,7 +18,7 @@ const Blogs = () => {
         </div>
         <div className="my-8 flex justify-center gap-x-3">
           <NavBtn to="work" text="Work" />
-          <NavBtn to="resume" text="Resume" />
+          {/* <NavBtn to="resume" text="Resume" /> */}
         </div>
         <Socials />
       </main>

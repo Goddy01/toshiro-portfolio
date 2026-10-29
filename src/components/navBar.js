@@ -41,9 +41,9 @@ const NavBar = () => {
             {/* <li>
               <Link to="/blogs">Articles</Link>
             </li> */}
-            <li>
+            {/* <li>
               <Link to="/resume">Résumé</Link>
-            </li>
+            </li> */}
           </ul>
           <div className="mt-6 flex flex-col items-center">
             <p className="mb-4 text-[1.2rem] font-bold text-white">

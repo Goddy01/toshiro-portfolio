@@ -18,7 +18,7 @@ const Work = () => {
         </div>
         <div className="my-8 flex justify-center gap-x-3">
           <NavBtn to="" text="Home" />
-          <NavBtn to="resume" text="Résumé" />
+          {/* <NavBtn to="resume" text="Résumé" /> */}
         </div>
         <Socials />
       </main>
