@@ -9,6 +9,23 @@ const DesktopHomeRight = () => {
        </h2>
       <div className="darken flex flex-col gap-y-8 md:gap-y-3">
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">PreciseTranscribe — AI Audio-to-Text Transcription</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            PYTHON + FASTAPI + OPENAI WHISPER + PYTORCH + FFMPEG + CELERY + REDIS + POSTGRESQL + REACT + DOCKER
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs leading-relaxed text-dark-grey md:h-auto md:min-h-0">
+            • Built an AI-powered audio-to-text transcription platform focused on maximizing word-level accuracy for real-world recordings (meetings, interviews, and long-form audio)
+            <br />
+            • Implemented a Whisper-based transcription pipeline with noise-aware preprocessing (FFmpeg), chunking, and confidence scoring to reduce misheard words and improve transcript quality
+            <br />
+            • Added post-processing for punctuation, casing, and terminology consistency so the final output stays readable and as close to the spoken words as possible
+            <br />
+            • Designed async job processing with Celery and Redis so large files transcribe reliably without blocking the API, with status updates and retry handling
+            <br />
+            • Delivered a FastAPI backend and React UI for upload, progress tracking, transcript review/edit, and export — containerized with Docker for consistent local and cloud runs
+          </p>
+        </div>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">Sideline Sports & Entertainment</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
             REACT + EXPRESS + TYPESCRIPT + TAILWIND CSS + POSTGRESQL + GIT + CLOUDINARY
