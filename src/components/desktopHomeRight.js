@@ -26,6 +26,23 @@ const DesktopHomeRight = () => {
           </p>
         </div>
         <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
+          <h3 className="text-[1.3rem] font-semibold text-white">Solana Copytrading Bot</h3>
+          <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
+            RUST + HELIUS + SOLANA + WEBSOCKET + JITO + TOKIO + VPS + REDIS
+          </p>
+          <p className="my-3 min-h-[5rem] text-xs leading-relaxed text-dark-grey md:h-auto md:min-h-0">
+            • Built a high-performance Solana copytrading bot in Rust that mirrors profitable wallets in near real time and consistently outperforms popular copytrading bots on latency and fill quality
+            <br />
+            • Integrated Helius (enhanced RPC + WebSocket streams) to detect target wallet swaps/mints within milliseconds and trigger copy trades with minimal delay
+            <br />
+            • Optimized execution with Jito bundles, priority fees, and smart slippage/size controls to improve landing rate and reduce failed or delayed transactions
+            <br />
+            • Deployed on a low-latency VPS with Redis for state/cache and Tokio async runtime for concurrent monitoring of multiple wallets without bottlenecks
+            <br />
+            • Added risk filters (liquidity, market cap, honeypot/rug checks, position sizing) so the bot copies smart money while avoiding low-quality or unsafe tokens
+          </p>
+        </div>
+        <div className="flex flex-col bg-box-bg p-10 transition-all duration-300 md:hover:scale-110">
           <h3 className="text-[1.3rem] font-semibold text-white">Sideline Sports & Entertainment</h3>
           <p className="mb-3 mt-1 text-xs font-semibold leading-5 tracking-wider text-light-grey">
             REACT + EXPRESS + TYPESCRIPT + TAILWIND CSS + POSTGRESQL + GIT + CLOUDINARY
